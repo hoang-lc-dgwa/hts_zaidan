@@ -1,0 +1,336 @@
+
+.link-mark a {
+	text-decoration: underline !important;
+}
+.link-mark a:hover {
+	text-decoration: none !important;
+}
+
+#contest_box table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 100%;
+  width: 570px;
+  margin-left: 0;
+}
+
+#contest_box table th, #contest_box table td{
+  border:1px solid #b9b9b9;
+  font-weight:normal;
+  text-align: center;
+  padding: 5px;
+  background:#fff;
+}
+
+
+#contest_box table th{
+	background:#fdeb98;
+	font-weight:bold;
+}
+
+#contest_box .tbl_yellow th {
+  background-color: #ffe599;
+  border: 1px solid #999999;
+}
+#contest_box .tbl_yellow td {
+  text-align: center;
+  border: 1px solid #999999;
+
+}
+
+#contest_box .tbl_green th {
+  background-color: #a8d08d;
+  border: 1px solid #999999;
+}
+
+
+#contest_box .tbl_black__1 th{
+  background-color: #9cc2e5;
+  border: 1px solid #888;
+  text-align: left;
+  padding:0px 10px;
+}
+
+#contest_box .tbl_black__1 td {
+  border: 1px solid #999999;
+}
+
+
+#contest_box .tbl_green td {
+  border: 1px solid #999999;
+}
+
+#contest_box .tbl_yellow td, #contest_box .tbl_yellow th, #contest_box .tbl_green td, #contest_box .tbl_green th   {
+  font-size: 14px;
+}
+
+
+#contest_box .tbl_blue th {
+  background-color: #bdd6ee;
+  border: 1px solid #999999;
+}
+
+#contest_box .tbl_blue td {
+  border: 1px solid #999999;
+}
+
+.conp_title_green {
+  font-size: 24px !important;
+  font-weight: bold !important;
+  background: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 0 5px 0 !important;
+  letter-spacing: 1px;
+}
+
+#contest_box #table_bottom th {
+  background: #fdeb98;
+  font-weight: bold;
+  border: 1px solid #000000;
+  width: 30%;
+}
+
+.typography--caption {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 35px 0 12px;
+}
+
+
+#contest_box #table_bottom td {
+  background: #fff;
+  font-weight: bold;
+  border: 1px solid #000000;
+}
+
+
+.center{
+	margin-left:20px;
+}	
+
+.poster{
+  margin: 20px !important;
+}
+.ohers{
+ width: 570px;
+ margin-left: 20px;
+}
+.cell_un tr > td a {
+  text-decoration: none;
+}
+.cell_un tr > td:last-child{
+  font-size: 90%;
+  font-family: "Meiryo";
+}
+
+#contest_box table.ps--tb{
+  margin: 1em 0px;
+}
+#contest_box table.ps--tb th{
+  background: transparent;
+}
+#contest_box table.ps--tb th, #contest_box table.ps--tb td{
+  border: none;
+  text-align: left;
+  vertical-align: top;
+  padding: 0px;
+  font-weight: normal;
+}
+#main .ps--hover-s1{
+  background-color: #5A8B46;
+  display: inline-block;
+  padding: 5px 15px;
+  color: #fff;
+  text-align: center;
+  min-width: 105px;
+  margin: 20px 25px 0px;
+  text-decoration: none !important;
+  color: #fff;
+}
+.ps--hover-s1:hover{
+  text-decoration: none !important;
+  opacity: 0.8;
+}
+
+*:first-child+html #help_me { color: red; } 
+
+*+html #help_me {  color: red; }			
+
+table ruby, table ruby:hover{
+  border: 0;
+  font-size: 14px !important;
+  line-height: 1.2;
+  margin: 3px 3px 0;
+}
+table ruby > rt, table ruby:hover rt{
+  font-size: 9px !important;
+  letter-spacing: 1px;
+}
+
+.layout__container {
+  margin: 30px 10px 0;
+}
+.typography__title {
+  font-size: 20px;
+  margin-bottom: 3px;
+  margin-left: -10px;
+}
+.typography__title--medium {
+  font-size: 23px;
+}
+.graphic__title--purple {
+  color: #8431c3;
+}
+.graphic__title--pink {
+  color: #f05e76;
+}
+.graphic__title--skyblue {
+  color: #01b0f0;
+}
+.graphic__title--seablue {
+  color: #325eec;
+}
+.graphic__title--pink {
+  color: #f05e76;
+}
+
+.graphic__title--orange {
+  color: #ed7d32 !important;
+}
+.layout__tabel {
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+#contest_box table.layout__tabel tr td {
+  text-align: left;
+}
+.layout__tabel--small {
+  max-width: 400px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.graphic__table th {
+  background-color: #fff !important;
+}
+.graphic__table--yellow th {
+  color: #333;
+  background-color: yellow;
+}
+.graphic__table--pink th {
+  color: #333;
+  background-color: #ffccff !important;
+}
+.graphic__table--skyblue th {
+  color: #333;
+  background-color: #bdd6ee !important;
+}
+.graphic__image, .graphic__image--information {
+  margin: 0;
+  text-align: center;
+}
+.graphic__image--information {
+  margin-bottom: 25px;
+}
+.graphic__image figcaption,  .graphic__image--information figcaption{
+  padding: 14px 0;
+  display: inline-block;
+  text-align: left;
+}
+.typography__title--medium {
+  margin: 20px 0;
+}
+.typography__time {
+  color: #4A891E !important;
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 35px;
+}
+.typography__text--justify {
+  text-align: justify;
+  margin: 14px 0 15px 0;
+}
+.layout__tabel--algin {
+  margin-top: 18px;
+  margin-bottom: 9px;
+}
+.table--center th, .table--center td {
+  text-align: center !important;
+}
+.layout--line {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left !important;
+}
+.ruby_merge {
+  margin-right: -7px;
+}
+table ruby.ruby_merge:hover {
+  margin-right: -7px !important;
+}
+
+.typography__title--information {
+  color: #000 !important;
+  font-weight: 400  !important;
+  padding: 10px 10px 6px !important;
+  background: rgb(146, 210, 85);
+  text-align: center;
+  margin-bottom: 25px !important;
+  font-family: "HGå‰µè‹±è§’ï¾Žï¾Ÿï½¯ï¾Œï¾Ÿä½“", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro", "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, Osaka, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;
+    
+}
+.typography__description--information {
+  text-align: center;
+  font-size: 17px;
+  color: #385623;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+a.layout__button--information {
+  max-width: 400px;
+  text-align: center;
+  line-height: 2.5em;
+  text-decoration: none !important;
+  background: url(/information/img/btn_right.png) no-repeat 97%;
+  padding: 5px 0;
+  display: block;
+  color: #fff !important;
+  background-color: #598F17;
+  margin: 0 auto 12px;
+  background-repeat: no-repeat;
+  -webkit-transition: .45s ease-in-out;
+  -moz-transition: .45s ease-in-out;
+  -ms-transition: .45s ease-in-out;
+  -o-transition: .45s ease-in-out;
+  transition: .45s ease-in-out;
+}
+
+a.layout__button--information:hover {
+  background-color: #426910;
+}
+
+
+
+
+.align--center {
+  text-align: center !important;
+}
+table.layout__tabel td {
+  padding: 7px 9px !important;
+}
+
+.layout__box--equal {
+  margin: 0;
+}
+.layout__box--equal > dt {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+}
+.layout__box--equal > dd {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  text-align: left;
+}

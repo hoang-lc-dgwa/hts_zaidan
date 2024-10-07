@@ -1,0 +1,128 @@
+.txt_bold {
+    position: absolute;
+    border: 2px solid red;
+    text-align: right;
+    display: inline-block;
+    background-color: yellow;
+    padding: 11px 4px 7px 10px;
+    margin-top: -23px;
+    margin-left: 20px;
+    color: red;
+}
+.txt_bold span {
+  display: block;
+  font-size: 70%;
+  position: relative;
+  right: -19px;
+}
+
+.layout__row--link_2{
+  
+ 
+}
+
+.layout__row--link_2{
+ background-color: #ffff66;
+ display: block;
+ border: 2px solid red;
+ box-sizing: border-box;
+ width: 100%;
+ color: #000000;
+ text-decoration: none;
+ text-align: center;
+ font-size: 13px;
+ padding: 10px 0 7px;
+}
+.layout__row--link_2 span{
+  color: red;
+}
+
+
+.summer {
+  padding: 20px 31px 30px;
+}
+.summer-title {
+  margin-right: 0 !important;
+  font-weight: bold !important;
+  margin-top: 40px !important;
+}
+.color-ed7d31 {
+  color: #ed7d31;
+}
+.color-red {
+  color: red;
+}
+.color-70ad54 {
+  color: #70ad54;
+}
+.summer-underline {
+  text-decoration: underline;
+}
+.summer-row {
+  display: flex;
+  padding-top: 12px;
+  margin-bottom: 70px;
+  align-items: center;
+}
+.summer-right {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.summer_tbl {
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: bold;
+  letter-spacing: -0.7px;
+  color: #000;
+}
+.summer_tbl th {
+  width: 54px;
+  text-align: left;
+  vertical-align: top;
+  padding-bottom: 5px;
+}
+.summer_btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.summer_btn-row a:hover {
+  opacity: .9;
+}
+.summer_btn-item, .summer_btn-itemfull  {
+  width: 31.5%;
+  text-decoration: none !important;
+  color: #fff !important;
+  background-color: #598f17;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: -0.5px;
+  padding: 8px 0 5px;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+.summer_btn-itemfull {
+  width: 100%;
+}
+.summer_thumb-row {
+  text-align: center;
+  margin: 38px auto;
+}
+.summer_thumb-item {
+  width: 250px;
+  margin-bottom: 20px;
+}
+.summer_thumb-row img {
+  max-width: 100%;
+}
+.summer_thumb-caption {
+  background-color: #fff2cc;
+  color: #ff1818;
+  border: 1px solid #ff1818;
+  padding: 10px 0 7px;
+  width: 350px;
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+}

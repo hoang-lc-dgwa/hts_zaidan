@@ -1,0 +1,127 @@
+
+.container--limit {
+  margin: 40px auto 0;
+  width: 530px;
+}
+.graphic__table {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  margin-bottom: 60px;
+}
+.graphic__table th, .graphic__table td {
+  font-size: 12px;
+}
+.layout__cell > tr > th, .layout__cell > tr > td {
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 9px 10px 7px;
+}
+.layout__cell > tr > th {
+  font-weight: normal;
+  background-color: #E7F3DA;
+  text-align: center;
+}
+.graphic__table small {
+  font-size: 11px;
+}
+.mlam3{
+  margin-left: -3px;
+}
+
+
+/*LAYOUT*/
+.layout__row--recruit {
+  margin-bottom: 50px;
+}
+.layout__row--recruit:after {
+  content: ".";
+  visibility: hidden;
+  display: block; 
+  clear: both;
+}
+.layout__col--recruit {
+  float: left;
+}
+.layout__row--link {
+  margin: 0 0 9px 0;
+}
+.typography__link:hover {
+  background-color: #457110;
+}
+.layout__col--link:first-child {
+  margin-left: 0;
+}
+.layout__col--link {
+  width: 166px;
+  margin-left: 21px;
+  padding: 7px 0;
+  display: inline-block;
+}
+.layout__col--linkfull {
+  width: 357px;
+  display: block;
+  padding: 7px 0;
+}
+.layout__box {
+  width: 358px;
+  margin-left: 24px;
+}
+
+
+.typography__text {
+  font-size: 16px;
+  padding: 20px 0;
+  text-align: center;
+}
+.typography__text--green {
+  color: #40c08f;
+}
+.typography__text--blue {
+  color: #5780c9;
+}
+
+.typography__link {
+  text-decoration: none !important;
+  color: #fff !important;
+  background-color: #598f17;
+  text-align: center;
+  font-size: 13px;
+}
+.typography__text--large {
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.typography__color--red {
+  color: red;
+}
+.typography__title--career {
+  padding-left: 1.2em;
+  font-size: 19px;
+  position: relative;
+  margin: 10px 0 10px 0;
+}
+.typography__title--career > span {
+  font-size: inherit !important;
+}
+.typography__title--career:before{
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #588F17;
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+.typography--nontext {
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+.layout__col--recruit figure {
+  margin: 0;
+}

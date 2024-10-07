@@ -1,0 +1,382 @@
+/* form */
+
+input, select {
+	margin: 0;
+	vertical-align: middle;
+}
+
+.study {
+	width: 400px;
+}
+
+.shimei {
+	width: 200px;
+}
+
+.radio {
+	margin-right: 3px;
+}
+
+.nationality {
+	width: 127px;
+}
+
+.birth {
+	margin-right: 5px;
+}
+
+.school1 {
+	width: 400px;
+}
+
+.school2 {
+	width: 127px;
+}
+
+.school3 {
+	margin-right: 5px;
+}
+
+.address {
+	margin-top: 5px;
+	width: 400px;
+}
+
+.tel {
+	width: 127px;
+}
+
+.email {
+	width: 200px;
+}
+
+.check {
+	margin-right: 3px;
+}
+
+ .kiyaku {
+	width: 570px;
+}
+
+.etc {
+	margin-top: 5px;
+	width: 300px;
+}
+
+.free {
+	width: 550px;
+}
+
+.question2,
+.question3,
+.question18_etc {
+	margin-right: 5px;
+}
+
+.question15_etc {
+	margin: 0 5px;
+}
+
+/* kiyaku */
+
+
+
+.kiyaku {
+	margin: 0 26px 20px 21px;
+	padding: 15px;
+	border: 1px solid #ccc;
+	height: 250px;
+	overflow: auto;
+}
+
+.kiyaku dl, .kiyaku dt, .kiyaku dd,
+.kiyaku ol, .kiyaku ul, .kiyaku li {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.kiyaku dt {
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.kiyaku dd {
+	margin-bottom: 10px;
+}
+
+.kiyaku dd.msg {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.kiyaku dd.sign {
+	padding-top: 15px;
+}
+
+.kiyaku ol,
+.kiyaku ul {
+	margin: 5px 0 5px 30px;
+}
+
+.kiyaku li {
+	margin-bottom: 5px;
+}
+
+/* kiyaku */
+
+.agree {
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+/* btn */
+
+#btn {
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#btn input, #btn img {
+	margin: 0 10px;
+}
+
+.error {
+	margin-left: 10px;
+	white-space: nowrap;
+	font-weight: bold;
+	color: #f00;
+}
+
+.thanks {
+	padding-bottom: 100px;
+}
+
+
+/* kiyaku */
+
+#kiyaku {
+	margin: 30px 26px 20px 21px;
+	padding: 15px;
+	border: 1px solid #ccc;
+	height: 250px;
+	overflow: auto;
+}
+
+#kiyaku dl, #kiyaku dt, #kiyaku dd,
+#kiyaku ol, #kiyaku ul, #kiyaku li {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+#kiyaku dt {
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+#kiyaku dd {
+	margin-bottom: 10px;
+}
+#kiyaku dd.sign {
+	padding-top: 15px;
+}
+
+#kiyaku ol,
+#kiyaku ul {
+	margin: 5px 0 5px 30px;
+}
+#kiyaku li {
+	margin-bottom: 5px;
+}
+
+/* kiyaku */
+
+#agree {
+	text-align: center;
+	font-size: 12px;
+}
+
+/* btn */
+
+#btn {
+	padding: 20px 0 10px;
+	text-align: center;
+}
+#btn input, #btn img {
+	margin: 0 10px;
+}
+
+.error {
+	margin-left: 10px;
+	white-space: nowrap;
+	font-weight: bold;
+	color: #f00;
+}
+
+.thanks {
+	padding-bottom: 100px;
+}
+
+
+/* ============ p­¸ir ============ */
+
+div.breadnavi {
+	padding: 3px 5px 8px;
+	font-size: 10px;
+	margin-bottom: 15px;
+	color: #226800;
+	right: 10px;
+}
+
+/* ============ copyright ============ */
+
+.copy {
+	font-size: 10px;
+	color: #999999;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.table {
+	font-family: "lr oSVbN", "Osaka";
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 180%;
+}
+
+table.schoollist {
+	margin-top: 10px;
+	margin-left: 20px;
+	border: 1px #CAF95B solid;
+	width: 530px;
+}
+
+table.schoollist td {
+	font-family: "lr oSVbN", "Osaka";
+	font-size: 12px;
+	line-height: 120%;
+	width: 25%;
+	padding: 2px;
+	border: 1px #E2F2A4 solid;
+}
+
+table.schoollist2 {
+	margin-top: 10px;
+	margin-left: 20px;
+	border: 1px #CAF95B solid;
+	width: 530px;
+}
+
+table.schoollist2 td {
+	font-family: "lr oSVbN", "Osaka";
+	font-size: 12px;
+	line-height: 120%;
+	width: 33%;
+	padding: 2px;
+	border: 1px #E2F2A4 solid;
+}
+
+.main1 {
+	margin-left: 20px;
+}
+
+.mainline {
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.maintitle {
+	margin-left: 20px;
+	margin-bottom: 12px;
+}
+
+.text {
+	font-family: "lr oSVbN", "Osaka";
+	font-size: 12px;
+	line-height: 140%;
+	color: #333333;
+	margin-left: 20px;
+}
+
+.maintitle2 {
+	margin-left: 20px;
+	margin-bottom: 12px;
+	margin-top: 25px;
+}
+
+.text2 {
+	font-family: "lr oSVbN", "Osaka";
+	font-size: 12px;
+	line-height: 150%;
+	color: #333333;
+	padding-left: 15px;
+}
+
+.textS {
+	font-family: "lr oSVbN", "Osaka";
+	font-size: 10px;
+	line-height: 140%;
+	color: #333333;
+	margin-left: 20px;
+}
+
+.small {
+	font-family: "lr oSVbN", "Osaka";
+	font-size: 10px;
+	line-height: 130%;
+	color: #333333;
+}
+
+.table2 {
+	font-size: 12px;
+	line-height: 160%;
+}
+
+.text3 {
+	font-size: 12px;
+	
+
+/*color: #333333;*/
+	padding-left: 5px;
+}
+
+.text4 {
+	font-size: 12px;
+	color: #333333;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.table3 {
+	font-size: 12px;
+	line-height: 140%;
+}
+
+li {
+	font-family: "lr oSVbN", "Osaka";
+	font-size: 12px;
+	line-height: 140%;
+	color: #333333;
+	margin-left: 40px;
+}
+
+.textmap {
+	font-size: 12px;
+	line-height: 200%;
+	color: #333333;
+	margin-left: 30px;
+}
+
+.red {
+	font-size: 10px;
+	color: #CC0000;
+}

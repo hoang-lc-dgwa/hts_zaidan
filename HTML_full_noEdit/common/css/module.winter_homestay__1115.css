@@ -1,0 +1,129 @@
+:root{
+	--red: #fa151c;
+	--blue: #335494;
+	--blueLight: #2797fb;
+	--yellow: #fcc131;
+	--yellowDark: #bd9122;
+	--greenBlue: #2797fb;
+}
+
+
+.winter_homestay .bgcolor-red{
+	background-color: var(--red);
+}
+.winter_homestay .bgcolor-blue{
+	background-color: var(--blue);
+}
+.winter_homestay .bgcolor-blueLight{
+	background-color: var(--blueLight);
+}
+.winter_homestay .bgcolor-yellow{
+	background-color: var(--yellow);
+}
+.winter_homestay .bgcolor-yellowDark{
+	background-color: var(--yellowDark);
+}
+.winter_homestay .bgcolor-greenBlue{
+	background-color: var(--greenBlue);
+}
+
+
+.winter_homestay .color-red{
+	color: var(--red);
+}
+.winter_homestay .color-blue{
+	color: var(--blue);
+}
+.winter_homestay .color-blueLight{
+	color: var(--blueLight);
+}
+.winter_homestay .color-yellow{
+	color: var(--yellow);
+}
+.winter_homestay .color-yellowDark{
+	color: var(--yellowDark);
+}
+.winter_homestay .color-greenBlue{
+	color: var(--greenBlue);
+}
+.winter_homestay .list2 {
+	margin-left: 114px;
+}
+
+.winter_homestay .title {
+	background-image: none !important;
+	position: relative;
+}
+.winter_homestay .title::before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	background-color: var(--blueLight);
+	position: absolute;
+	left: 0;
+	top: 28px;
+	border-radius: 9999px;
+}
+
+.txt_bold {
+	position: absolute;
+	border: 2px solid red;
+	text-align: right;
+	display: inline-block;
+	background-color: yellow;
+	padding: 11px 4px 7px 10px;
+	margin-top: -23px;
+	margin-left: 20px;
+	color: red;
+  }
+
+  .txt_bold span {
+	display: block;
+	font-size: 70%;
+	position: relative;
+	right: -19px;
+  }
+
+	.winter_homestay .info_btn_list li a {
+		background-position: right 4px center;
+	}
+	.winter_homestay .info_btn_list li a {
+		font-size: 12px;
+	}
+
+  .layout__row--link_2 {
+	background-color: #ffff66;
+	display: block;
+	border: 2px solid red;
+	box-sizing: border-box;
+	width: 100%;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+	padding: 10px 0 7px;
+  }
+
+  .layout__row--link_2 span {
+	color: red;
+  }
+
+  .txt_inbox_red {
+	position: absolute;
+	top: 27%;
+	left: 24%;
+	background: #ffffff;
+	border: 2px solid red;
+	color: red;
+	padding: 15px 45px;
+	z-index: 999999;
+	transform: rotate(12deg);
+	font-size: 18px;
+	line-height: 1.6;
+	font-weight: bold;
+	text-align: center;
+  }
+
+  .txt_inbox_red strong {
+	font-size: 23px;
+  }

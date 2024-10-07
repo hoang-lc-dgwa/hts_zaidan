@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.contents{
+	width:530px;
+	padding-left:20px;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	font-size: 12px;
+	line-height: 140%;
+	color: #333333;
+}
+
+.contents .space_h5{height:5px; line-height:0; font-size:0; clear:both;}
+.contents .space_h10{height:10px; line-height:0; font-size:0; clear:both;}
+.contents .space_h15{height:15px; line-height:0; font-size:0; clear:both;}
+.contents .space_h20{height:20px; line-height:0; font-size:0; clear:both;}
+.contents .space_h30{height:30px; line-height:0; font-size:0; clear:both;}
+
+.contents p{
+	padding:0;
+	margin:0;
+}
+
+.contents h2{
+	padding:0;
+	margin:0;
+}
+
+.contents h3{
+	padding:0;
+	margin:0;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 140%;
+	color: #333333;
+}
+.contents h3.tit{
+	padding-top: 15px;
+	border-top: 2px dotted #9EC146;
+	width: 530px;
+}
+
+.contents .application{
+	float:left;
+	padding-right:20px;
+	margin:0;
+}
+
+.contents .pdf{
+	float:left;
+}
+
+.contents .tbl00{
+	border-collapse:collapse;
+	width:530px;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	font-size: 12px;
+	line-height: 140%;
+	color: #333333;
+}
+
+.contents .tbl00 td{
+	padding:0 0 5px 0;
+	vertical-align:top;
+}
+
+.contents .tbl01{
+	border-collapse:collapse;
+	width:530px;
+	font-size: 12px;
+	line-height: 140%;
+	color: #333333;
+}
+
+.contents .tbl01 th{
+	text-align: left;
+}
+
+.contents .tbl01 td{
+	padding:5px 0;
+vertical-align:middle;
+}
+
+.contents .tbl02{
+	width:530px;
+	border-collapse:collapse;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	font-size: 12px;
+	line-height: 140%;
+	color: #333333;
+}
+
+.contents .tbl02 td{
+	padding:0;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.contents .tbl03{
+	border-collapse:collapse;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	font-size: 12px;
+	line-height: 140%;
+	color: #333333;
+}
+
+.contents .tbl03 th{
+	padding:5px 0;
+	border:solid 1px #666666;
+	vertical-align:middle;
+	background:#E7F3DA;
+/*	text-align:center;*/
+	font-weight:normal;
+}
+
+.contents .tbl03 th.th01{
+	background:#E6E6E6;
+}
+
+.contents .tbl03 td{
+	padding:5px 0;
+	height:50px;
+	border:solid 1px #666666;
+	/*vertical-align:middle;
+	text-align:center;*/
+}
+
+.contents .tbl04{
+	width:530px;
+	border-collapse:collapse;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	font-size: 12px;
+	line-height: 140%;
+	color: #333333;
+}
+
+.contents .tbl04 th{
+	padding:5px 0;
+	width:33%;
+	border:solid 1px #666666;
+	vertical-align:middle;
+	background:#E7F3DA;
+	text-align:center;
+	font-weight:normal;
+}
+
+.contents .tbl04 td{
+	padding:5px 0;
+	border:solid 1px #666666;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.contents .tbl05{
+	width:530px;
+	border-collapse:collapse;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	font-size: 12px;
+	line-height: 140%;
+	color: #333333;
+}
+
+.contents .tbl05 th{
+	padding:5px 0;
+		width:50%;
+	border:solid 1px #666666;
+	vertical-align:middle;
+	background:#E7F3DA;
+	text-align:center;
+	font-weight:normal;
+}
+
+.contents .tbl05 td{
+	padding:5px 0;
+	border:solid 1px #666666;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.contents .tbl06{
+	width:530px;
+	border-collapse:collapse;
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	font-size: 12px;
+	line-height: 140%;
+	color: #333333;
+}
+
+.contents .tbl06 th{
+	padding:5px 0;
+	width:50%;
+	border:solid 1px #666666;
+	vertical-align:middle;
+	background:#E7F3DA;
+	text-align:center;
+	font-weight:normal;
+}
+
+.contents .tbl06 td{
+	padding:5px 0;
+	width:25%;
+	border:solid 1px #666666;
+	vertical-align:middle;
+	text-align:center;
+}
+
+
+.contents .comment{
+	width: 240px;
+	height: 30px;
+	margin-left: 290px;
+	margin-top:5px;
+	font-size: 12px;
+	line-height: 13px;
+	}
+

@@ -1,0 +1,55 @@
+input, select {
+	margin:0;
+}
+.check {
+	margin:0 5px 0 5px;
+}
+.seimei {
+	width: 10em;
+	margin:0 5px;
+}
+.zip1 {
+	width: 5em;
+	margin:0 5px;
+}
+.zip2 {
+	width: 3em;
+	margin:0 5px 0 5px;
+}
+.address1 {
+	margin:0;
+}
+.address2 {
+	width: 17em;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.mail {
+	width: 15em;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.radio {
+	margin:0 5px 0 5px;
+}
+.relation {
+	width: 5em;
+}
+.other {
+	width: 600px;
+}
+.submit {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+.address3 {
+	width: 25em;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.other2 {
+	width: 500px;
+}

@@ -1,0 +1,51 @@
+.view-2 .typography__space {
+	margin: 0 10px 3px 10px;
+	border-radius: 6px;
+	padding: 4px 0 1px 0;
+}
+.view-2 .typography__area-map {
+	font-weight: bold;
+	padding-bottom: 8px;
+	margin: 11px 0 2px 0 !important;
+}
+.view-2 .typography__area--name_green, .view-2 .typography__area--name_blue {
+	display: flex;
+	padding-left: 4px;
+	text-decoration: none;
+}
+.view-2 .typography__area--name_green:after, .view-2 .typography__area--name_blue:after {
+	display: none;
+}
+.view-2 p {
+	margin: 2px 0 !important;
+}
+.view-2 .bg-green {
+	background-color: #e2f0d9;
+}
+.view-2 .bg-blue {
+	background-color: #deebf7;
+}
+.view-2 .bg-orange {
+	background-color: #fbe5d6;
+}
+.view-2 .typography__unit {
+	text-align: right;
+	padding-right: 3px;
+}
+.box-note {
+	font-size: 27px;
+	background: #c00000;
+	border-radius: 50%;
+	color: #fff;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	line-height: 1.5;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: -2px;
+	padding: 42px 48px;
+}
+.box-note small {
+	font-size: 21px;
+}

@@ -1,0 +1,439 @@
+a img,:link img,:visited img {
+	border: none;
+}
+
+ul li img {
+	list-style-position: inside;
+	vertical-align: bottom;
+}
+
+#side_totop {
+	
+
+/* [disabled]width: 220px; */
+	
+
+/* [disabled]margin-bottom: 10; */
+	
+
+/* [disabled]margin-left: 15; */
+	background-color: #FFF;
+}
+
+#side_totop a img {
+	padding: 0;
+	border-style: none;
+}
+
+#sidenavi {
+	width: 220px;
+}
+
+#sidenavi a img {
+	padding: 0;
+	border-style: none;
+}
+
+#sidenavi ul {
+	margin: 0;
+	padding: 0;
+}
+
+#sidenavi li {
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+	width: 220px;
+	position: relative;
+}
+
+
+#sidenavi li img.bosyu{
+    position: absolute;
+    z-index: 999;
+    right: 16px;
+    top: 5px;
+}
+
+
+
+.navi_block {
+	margin-top: 0;
+	background-image: url(../img/navi/navi_bg.png);
+	background-repeat: repeat-y;
+	margin-bottom: 10px;
+	background-color: #FFF;
+	width: 240px!important; 
+	padding-top: 10;
+	padding-right: 0;
+	padding-bottom: 10;
+	padding-left: 0;
+	zoom: 1;
+    display:block;
+ margin-left: 30px;
+
+}
+
+
+.navi_block_ex {
+	margin-top: 0;
+	background-image: url(../img/navi/navi_bg.png);
+	background-repeat: repeat-y;
+	background-color: #FFF;
+	width: 240px; !important
+	padding-top: 10;
+	padding-right: 0;
+	padding-left: 0;
+	zoom: 1;
+    display:block;
+	  margin-left: 30px;
+	   
+
+}
+
+
+
+.navi_bottom {
+	background: url(../img/navi/navi_bottom.jpg) no-repeat;
+	height: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+/
+
+* [disabled]margin-left: 15px; */
+}
+
+#navi_a_head {
+	width: 220px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	clear: both;
+	background-image: url(/common/img/nav_img/navi_overview.png);
+	background-repeat: no-repeat;
+}
+
+#navi_b_head {
+	width: 220px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	clear: both;
+	background-image: url(/common/img/nav_img/side_activity.png);
+	background-repeat: no-repeat;
+}
+
+#navi_c_head {
+	width: 220px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	clear: both;
+	background-image: url(/common/img/nav_img/side_ab.png);
+	background-repeat: no-repeat;
+}
+
+#navi_c_head2 {
+	width: 220px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	clear: both;
+	background-image: url(/common/img/nav_img/side_branch.png);
+	background-repeat: no-repeat;
+}
+
+#navi_c_head3 {
+	width: 220px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	clear: both;
+	background-image: url(/common/img/nav_img/side_hp.png);
+	background-repeat: no-repeat;
+}
+
+
+
+#navi_d_head {
+	width: 220px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	clear: both;
+	background-image: url(/common/img/nav_img/side_rec.png);
+	background-repeat: no-repeat;
+}
+
+#navi_a_head span,#navi_b_head span,#navi_c_head span,#navi_c_head2 span,#navi_c_head3 span,#navi_d_head span {
+	display: none;
+}
+
+#banners_block {
+	width: 270px;
+	background-color: #FFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	background-image: url(../img/banner_back.png);
+	background-repeat: repeat-y;
+	float: left;
+	overflow: hidden;
+/
+
+* [disabled]height: 300px; */
+}
+
+.ro_banner {
+	padding: 0;
+	display: block;
+	width: 166px;
+	height: 62px;
+	margin: 0 0 6px;
+}
+
+.nom_banner {
+	padding: 0;
+	display: block;
+	width: 99px;
+	
+
+/* [disabled]height: 52px; */
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 6px;
+	margin-left: 0;
+}
+
+ul.normal-menu li:hover li ul {
+	margin: 0;
+	padding: 0;
+	width: 220px;
+}
+
+/*** ESSENTIAL STYLES ***/
+
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sf-menu {
+	line-height: 1.0;
+}
+
+
+ #sidenavi .navi_block .sf-menu.sf-vertical li ul li .three {
+	position: absolute;
+	top:0;
+	left:220px;
+}
+
+.sf-menu ul {
+	position: absolute;
+	top: -999em;
+}
+
+.sf-menu ul li {
+	width: 220px;
+}
+
+.sf-menu li:hover {
+	visibility: inherit;
+}
+
+.sf-menu li {
+	float: left;
+	position: relative;
+}
+
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left: 0;
+	top: 2.5em;
+	/* match top ul list item height */
+	z-index: 199;
+	width: 220px;
+}
+
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top: -999em;
+}
+
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left: 0;
+	/
+
+* match ul width */
+	top: 0;
+}
+
+ul.sf-menu li ul li:last-child a {
+	
+
+}
+
+/*** arrows **/
+
+.sf-menu a.sf-with-ul {
+	min-width: 1px;
+	/*padding-bottom: 2px;*/
+}
+
+.sf-sub-indicator {
+	position: absolute;
+	display: block;
+	right: .75em;
+	top: 1.05em;
+	/* IE6
+
+only */
+	width: 10px;
+	height: 10px;
+	text-indent: -999em;
+	overflow: hidden;
+	background: url('../img/_arrows-ffffff.png') no-repeat -10px -100px;
+/* 
+	
+	8-bit
+
+indexed alpha png. IE6 gets solid image only */
+}
+
+a > .sf-sub-indicator {
+	
+
+/* give all except IE6 the correct values */
+	top: .8em;
+	background-position: 0 -100px;
+/*
+
+use translucent arrow for modern browsers*/
+}
+
+/* apply hovers to modern browsers */
+
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px;
+
+
+/* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+
+.sf-menu ul .sf-sub-indicator {
+	background-position: -10px 0;
+}
+
+.sf-menu ul a > .sf-sub-indicator {
+	background-position: 0 0;
+}
+
+/* apply hovers to modern browsers */
+
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0;
+
+
+/* arrow hovers for modern browsers*/
+}
+
+/*** adding sf-vertical in addition to sf-menu creates a vertical menu ***/
+
+.sf-vertical, .sf-vertical li {
+	width: 181px;
+}
+
+/* this lacks ul at the start of the selector, so the styles from the main CSS file override it where needed */
+
+.sf-vertical li:hover ul,
+.sf-vertical li.sfHover ul {
+	left: 220px;
+
+
+/* match ul width */
+	top: 0;
+}
+
+/*** alter arrow directions ***/
+
+.sf-vertical .sf-sub-indicator {
+	background-position: -10px 0;
+}
+
+/* IE6 gets solid image only */
+
+.sf-vertical a > .sf-sub-indicator {
+	background-position: 0 0;
+}
+
+/* use translucent arrow for modern browsers*/
+
+/* hover arrow direction for modern browsers*/
+
+.sf-vertical a:focus > .sf-sub-indicator,
+.sf-vertical a:hover > .sf-sub-indicator,
+.sf-vertical a:active > .sf-sub-indicator,
+.sf-vertical li:hover > a > .sf-sub-indicator,
+.sf-vertical li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0;
+
+
+/* arrow hovers for modern browsers*/
+}
+
+#container #side_block #home_btn {
+	width: 220px;
+	background-color: #FFF;
+	padding-top:10px;
+/
+
+* [disabled]margin-bottom: 10px; */
+}
+
+#wrapper #container #side_block #banners_block .ro_banner a img {
+	background-color: #FFF;
+}
+
+#wrapper #container #main_container #banners_block #in_banner {
+	padding-left: 45px;
+}
+
+#wrapper #container #main_container #left_body #banners_block #in_banner #sns_box {
+	width: 203px;
+	margin-top: 10px;
+
+}
+
+#sidenavi .navi_block .sf-menu.sf-vertical li ul li {
+	display: block;
+	height:30px;
+}
+
+
+#sidenavi .navi_block .n_media{
+	padding: 10px 0 0 0;
+	}

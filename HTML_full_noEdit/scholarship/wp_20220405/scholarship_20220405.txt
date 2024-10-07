@@ -1,0 +1,58 @@
+<h2>選考委員会委員</h2>
+<table class="main1" border="0" width="530" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="textS" align="right">令和3年11月1日現在</td>
+</tr>
+</tbody>
+</table>
+<p><img src="../common/img/space.gif" alt="" width="1" height="5" /></p>
+<div class="main1">
+	<table class="table2" border="0" width="570" cellspacing="0" cellpadding="0">
+		<tbody>
+			<tr>
+				<td width="125"><img loading="lazy" src="../profile/img/official_ph15.jpg" alt="" width="125" height="150" /></td>
+				<td><img loading="lazy" src="../common/img/space.gif" alt="" width="10" height="20" /></td>
+				<td style="vertical-align: top;" width="140">菊川 長德</p>
+					<p>
+						国士舘大学<br />
+						21世紀アジア学部 教授
+					</p>
+				</td>
+				<td><img loading="lazy" src="../common/img/space.gif" alt="" width="10" height="20" /></td>
+				<td><img loading="lazy" src="../profile/img/official_ph16.jpg" alt="" width="125" height="150" /></td>
+				<td><img loading="lazy" src="../common/img/space.gif" alt="" width="10" height="20" /></td>
+				<td style="vertical-align: top;" width="140">中村 進</p>
+					<p>
+						日本大学法学部 教授
+					</p>
+				</td>
+			</tr>
+			<tr style="height: 10px;">
+				<td colspan="7" align="center"></td>
+			</tr>
+			<tr>
+				<td width="125"><img loading="lazy" src="../profile/img/official_ph17.jpg" alt="" width="125" height="150" /></td>
+				<td><img loading="lazy" src="../common/img/space.gif" alt="" width="10" height="20" /></td>
+				<td style="vertical-align: top;" width="140">寺脇 保</p>
+					<p>
+						学校法人電子学園<br />
+						常務理事
+					</p>
+				</td>
+				<td><img loading="lazy" src="../common/img/space.gif" alt="" width="10" height="20" /></td>
+				<td width="125"><img loading="lazy" src="../profile/img/official_ph18.jpg" alt="" width="125" height="150" /></td>
+				<td><img loading="lazy" src="../common/img/space.gif" alt="" width="10" height="20" /></td>
+				<td style="vertical-align: top;" width="140">渡井 邦重</p>
+					<p>
+						学校法人文化学園<br />
+						文化服装学院<br />
+						事務局 学務部長
+
+					</p>
+				</td>
+			</tr>
+			
+		</tbody>
+	</table>
+</div>
