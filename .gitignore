@@ -1,0 +1,28 @@
+.AppleDouble
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# npm
+node_modules
+npm-debug.log
+package-lock.json
+.git
+
+# static data
+_dest
+_backlog
+
+
+#css
+#html/**/*.css.map
+#html/**/*.css
+
+### Prepros ###
+# Config Prepros files to ignore
+prepros.cfg
+prepros-6.config
+**/prepros.cfg
+**/prepros-6.config
+.history
