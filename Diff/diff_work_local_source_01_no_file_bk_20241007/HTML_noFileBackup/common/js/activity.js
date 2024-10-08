@@ -37,7 +37,7 @@ html += '</ul>';
 html += '</li>';
 html += '<li><a href="/dormy/"><img src="/common/img/nav_img/nav_dormy_rollout.png" alt="寮事業" width="220" height="30" border="0"></a>';
 html += '<ul>';
-// html += '<li><a href="/dormitory/tsutsuji.html"><img src="/common/img/nav_img/nav_kaikan_tsutsuji_rollout.png" alt="つつじヶ丘男子学生会館" width="220" height="30" border="0"></a></li>';
+html += '<li><a href="/dormitory/tsutsuji.html"><img src="/common/img/nav_img/nav_kaikan_tsutsuji_rollout.png" alt="つつじヶ丘男子学生会館" width="220" height="30" border="0"></a></li>';
 // html += '<li><a href="/dormitory/sapporo.html"><img src="/common/img/nav_img/nav_kaikan_sapporo_rollout.png" alt="札幌圏" width="220" height="30" border="0"></a></li>';
 // html += '<li><a href="/dormitory/sendai.html"><img src="/common/img/nav_img/nav_kaikan_sendai_rollout.png" alt="仙台圏" width="220" height="30" border="0"></a></li>';
 // html += '<li><a href="/dormitory/syutoken.html"><img src="/common/img/nav_img/nav_kaikan_syutoken_rollout.png" alt="首都圏" width="220" height="30" border="0"></a></li>';
@@ -55,7 +55,7 @@ html += '</div>';
 
 
 
-	
+
 
 	document.write(html);
 }
