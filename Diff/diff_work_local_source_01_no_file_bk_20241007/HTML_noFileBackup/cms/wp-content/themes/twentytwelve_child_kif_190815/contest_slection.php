@@ -255,22 +255,33 @@ window.open(url,"window_name","toolbar=yes,location=yes,status=yes,menubar=yes,s
 <!--国際交流支援事業-->
 
 <!--寮事業-->
-<li>
+<li><a href="/dormy/"><img src="/common/img/nav_img/nav_dormy_rollout.png" alt="寮事業" width="220" height="30" border="0"></a>
+
   <ul>
-  <li><a href="/placehall/"><img src="/common/img/nav_img/nav_kaikan_rollout.png" alt="国際交流会館" width="220" height="30" border="0"></a></li>
-<li><a href="/placehall/03.html"><img src="/common/img/nav_img/nav_kaikan_tsutsuji_rollout.png" alt="つつじヶ丘男子学生会館" width="220" height="30" border="0"></a></li>
-<li><a href="/placehall/04.html"><img src="/common/img/nav_img/nav_kaikan_sagami_rollout.png" alt="相模大野学生会館" width="220" height="30" border="0"></a></li>
-<li><a href="/dormitory/index.html"><img src="/common/img/nav_img/nav_g_dormy_rollout.png" alt="学習奨励寮" width="220" height="30" border="0"></a></li>
-</ul>
+    <li><a href="/dormitory/tsutsuji.html"><img src="/common/img/nav_img/nav_kaikan_tsutsuji_rollout.png" alt="つつじヶ丘男子学生会館" width="220" height="30" border="0"></a></li>
+
+    <!-- <li><a href="/dormitory/sapporo.html"><img src="/common/img/nav_img/nav_kaikan_sapporo_rollout.png" alt="札幌圏" width="220" height="30" border="0"></a></li>
+    <li><a href="/dormitory/sendai.html"><img src="/common/img/nav_img/nav_kaikan_sendai_rollout.png" alt="仙台圏" width="220" height="30" border="0"></a></li>
+    <li><a href="/dormitory/syutoken.html"><img src="/common/img/nav_img/nav_kaikan_syutoken_rollout.png" alt="首都圏" width="220" height="30" border="0"></a></li>
+    <li><a href="/dormitory/nagoya.html"><img src="/common/img/nav_img/nav_kaikan_nagoyaken_rollout.png" alt="名古屋圏" width="220" height="30" border="0"></a></li>
+    <li><a href="/dormitory/kyoto.html"><img src="/common/img/nav_img/nav_kaikan_kyotoken_rollout.png" alt="京都圏" width="220" height="30" border="0"></a></li>
+    <li><a href="/dormitory/kansai.html"><img src="/common/img/nav_img/nav_kaikan_kansaiken_rollout.png" alt="関西圏" width="220" height="30" border="0"></a></li>
+    <li><a href="/dormitory/kyusyu.html"><img src="/common/img/nav_img/nav_kaikan_kyushuken_rollout.png" alt="九州圏" width="220" height="30" border="0"></a></li> -->
+  </ul>
 </li>
 <!--寮事業-->
+
+<!-- 就職支援事業 -->
+<li><a href="/jobsupport/"><img src="/common/img/nav_img/nav_life_recruit_rollout.png" alt="就職支援事業"
+      width="220" height="30" border="0"></a></li>
+<!-- 就職支援事業 -->
 
 
 </ul>
 <!--活動内容-->
 
 <br style="clear:both">
-<a href="/dormy/"><img src="/common/img/nav_img/nav_dormy_rollout.png" alt="寮事業" width="220" height="30" border="0"></a></div>
+</div>
 <!--activityブロックここまで-->
 
 <!--officeブロック-->
