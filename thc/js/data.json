@@ -1,0 +1,439 @@
+{
+  "group_01": [
+    {
+      "image": "./images/tab/g1-3.jpg",
+      "erea": "北海道",
+      "path": "阿寒",
+      "title": "ラビスタ阿寒川",
+      "describe": "ただ、川と温泉があるだけの森に。<br class='off-sp'><br class='off-sp'>",
+      "information": "〒085-0468<br>北海道釧路市阿寒町オクルシュベ3-1",
+      "detail": "",
+      "price": "0154-67-5566",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BOZ&hidSELECTCOD1=MR230&hidSELECTCOD2=001",
+      "link2": "/hotels/akangawa/"
+    },{
+      "image": "./images/tab/g1-1.jpg",
+      "erea": "北海道",
+      "path": "旭岳温泉",
+      "title": "ラビスタ大雪山",
+      "describe": "神々が遊ぶ庭”旭岳を望み<br>自然に見せられる山岳リゾート",
+      "information": "〒071-1472<br>北海道上川郡東川町旭岳温泉",
+      "detail": "",
+      "price": "0166-97-2323",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BME&hidSELECTCOD1=MR140&hidSELECTCOD2=001",
+      "link2": "/hotels/daisetsuzan/"
+    },{
+      "image": "./images/tab/g1-2.jpg",
+      "erea": "北海道",
+      "path": "函館",
+      "title": "ラビスタ函館ベイ",
+      "describe": "函館の夜景を満喫、<br>「朝食の美味しいホテル」日本一",
+      "information": "〒040-0065<br>北海道函館市豊川町12-6",
+      "detail": "",
+      "price": "0138-23-6111",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BL6&hidSELECTCOD1=MR010&hidSELECTCOD2=001",
+      "link2": "/hotels/lahakodate/"
+    }
+  ],
+  "group_02": [
+    {
+      "image": "./images/tab/g2-10.jpg",
+      "erea": "秋田",
+      "path": "秋の宮温泉郷",
+      "title": "湯けむりの宿 稲住温泉",
+      "describe": "【NEW】令和元年10月　オープン<br>秋田最古の温泉郷に、新しくも懐かしい湯宿が誕生",
+      "information": "〒019-0321<br>秋田県湯沢市秋ノ宮字山居野11",
+      "detail": "",
+      "price": "",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1GI3&hidSELECTCOD1=MR340&hidSELECTCOD2=001",
+      "link2": "/resort/information/shikishimakan_inazumi/inazumi/"
+    },{
+      "image": "./images/tab/g1-5.jpg",
+      "erea": "岩手",
+      "path": "安比高原",
+      "title": "ラビスタ安比高原",
+      "describe": "イーハトーヴォの国から湧き出てる<br>奇跡の温泉<br class='off-sp'><br class='off-sp'>",
+      "information": "〒028-7306<br>岩手県八幡平市安比高原605-30",
+      "detail": "",
+      "price": "0195-73-5301",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BJI&hidSELECTCOD1=MR030&hidSELECTCOD2=001",
+      "link2": "/hotels/appi/"
+    },{
+      "image": "./images/tab/g1-4.jpg",
+      "erea": "宮城",
+      "path": "鳴子温泉",
+      "title": "<span class='text-samll-title'>鳴子温泉 湯元</span> 吉祥",
+      "describe": "“温泉の贅”をたしなむ。",
+      "information": "〒989-6823<br>宮城県大崎市鳴子温泉字湯元58-10",
+      "detail": "",
+      "price": "0229-82-4451",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BKY&hidSELECTCOD1=MR260&hidSELECTCOD2=001",
+      "link2": "/hotels/kissho/"
+    }
+  ],
+  "group_03": [
+    {
+      "image": "./images/tab/g2-1.jpg",
+      "erea": "栃木",
+      "path": "那須",
+      "title": "ウェルネスの森 那須",
+      "describe": "雄大な自然に囲まれた高原リゾート<br class='off-sp'><br class='off-sp'>",
+      "information": "〒325-0304<br>栃木県那須郡那須町高久甲6437",
+      "detail": "",
+      "price": "0287-78-1125",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BMA&hidSELECTCOD1=MR060&hidSELECTCOD2=001",
+      "link2": "/hotels/nasu/"
+    },{
+      "image": "./images/tab/g2-2.jpg",
+      "erea": "群馬",
+      "path": "草津",
+      "title": "<span class='text-samll-title'>湯宿</span> 季の庭",
+      "describe": "全室温泉露天風呂付、上質な寛ぎのひと時",
+      "information": "〒377-1711<br>群馬県吾妻郡草津町大字草津白根464-214",
+      "detail": "",
+      "price": "0279-89-9320",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BLP&hidSELECTCOD1=MR180&hidSELECTCOD2=001",
+      "link2": "/hotels/tokinoniwa/"
+    },{
+      "image": "./images/tab/g2-3.jpg",
+      "erea": "群馬",
+      "path": "草津",
+      "title": "<span class='text-samll-title'>お宿</span> 木の葉",
+      "describe": "ふたつの源泉、23種のお風呂で湯めぐり三昧",
+      "information": "〒377-1711<br>群馬県吾妻郡草津町大字草津白根464-214",
+      "detail": "",
+      "price": "0279-89-9320",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BLS&hidSELECTCOD1=MR190&hidSELECTCOD2=001",
+      "link2": "/hotels/konoha/"
+    },{
+      "image": "./images/tab/g2-8.jpg",
+      "erea": "長野",
+      "path": "軽井沢",
+      "title": "ルシアン旧軽井沢",
+      "describe": "別荘地として名高い旧軽井沢の本格ペットホテル<br class='off-sp'>",
+      "information": "〒389-0102<br>長野県北佐久郡軽井沢町大字軽井沢1323-111",
+      "detail": "",
+      "price": "0267-41-3211",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BNX&hidSELECTCOD1=MR290&hidSELECTCOD2=001",
+      "link2": "/hotels/le_karuizawa/"
+    },{
+      "image": "./images/tab/g2-9.jpg",
+      "erea": "山梨",
+      "path": "富士河口湖",
+      "title": "ラビスタ富士河口湖",
+      "describe": "南仏プロヴァンスが薫る館<br class='off-sp'><br class='off-sp'>",
+      "information": "〒401-0304<br>山梨県南都留郡富士河口湖町河口2395",
+      "detail": "",
+      "price": "0555-76-5220",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BMY&hidSELECTCOD1=MR240&hidSELECTCOD2=001",
+      "link2": "/hotels/kawaguchiko/"
+    },{
+      "image": "./images/tab/g2-20.jpg",
+      "erea": "新潟",
+      "path": "越後湯沢",
+      "title": "<span>越後湯沢温泉 湯けむりの宿</span> 雪の花",
+      "describe": "2019年4月、上質な湯・食・癒しを愉しむ大人の湯宿が誕生。<br class='off-sp'>",
+      "information": "〒949-6101<br>新潟県南魚沼郡湯沢町大字湯沢317-1",
+      "detail": "",
+      "price": "025-785-2511",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BRA&hidSELECTCOD1=MR330&hidSELECTCOD2=001",
+      "link2": "https://dormy-hotels.com/resort/hotels/yukinohana/"
+    }
+  ],
+  "group_04": [
+    {
+      "image": "./images/tab/g2-4.jpg",
+      "erea": "神奈川",
+      "path": "箱根",
+      "title": "<span class='text-samll-title'>月の宿</span> 紗ら",
+      "describe": "「和モダン」を設えた、新しい癒しの湯宿",
+      "information": "〒250-0311<br>神奈川県足柄下郡箱根町湯本588番地の1",
+      "detail": "",
+      "price": "0460-85-5489",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BLB&hidSELECTCOD1=MR250&hidSELECTCOD2=001",
+      "link2": "/hotels/sara/"
+    },{
+      "image": "./images/tab/g2-7.jpg",
+      "erea": "神奈川",
+      "path": "箱根",
+      "title": "<span class='text-samll-title'>箱根小涌谷温泉</span> 水の音",
+      "describe": "水の音色と2種類の源泉、<br>緑の中に佇む癒しの湯宿",
+      "information": "〒250-0406<br>神奈川県足柄下郡箱根町小涌谷492-23",
+      "detail": "",
+      "price": "0460-85-5489",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BLR&hidSELECTCOD1=MR050&hidSELECTCOD2=001",
+      "link2": "/hotels/mizunoto/"
+    },{
+      "image": "./images/tab/g2-5.jpg",
+      "erea": "神奈川",
+      "path": "箱根",
+      "title": "<span class='text-samll-title'>季の湯</span> 雪月花",
+      "describe": "強羅駅前、全158室に檜の客室露天風呂<br><br class='off-sp'>",
+      "information": "〒250-0408<br>神奈川県足柄下郡箱根町強羅1300-34",
+      "detail": "",
+      "price": "0460-85-5489",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BJK&hidSELECTCOD1=MR120&hidSELECTCOD2=001",
+      "link2": "/hotels/setsugetsuka/"
+    },{
+      "image": "./images/tab/g2-6.jpg",
+      "erea": "神奈川",
+      "path": "箱根",
+      "title": "<span class='text-samll-title'>強羅温泉 雪月花別邸</span> 翠雲",
+      "describe": "全室檜の天然温泉露天風呂付、<br class='off-sp'>「季の湯雪月花」のハイクラスな“別邸”",
+      "information": "〒250-0408 <br>神奈川県足柄下郡箱根町強羅1300-61",
+      "detail": "",
+      "price": "0460-85-5489",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BMW&hidSELECTCOD1=MR300&hidSELECTCOD2=001",
+      "link2": "/hotels/suiun/"
+    }
+  ],
+  "group_05": [
+    {
+      "image": "./images/tab/g3-2.jpg",
+      "erea": "静岡",
+      "path": "熱海",
+      "title": "ラビスタ伊豆山",
+      "describe": "相模湾の眺望、花と笑顔にあふれるホテル",
+      "information": "〒413-0002<br>静岡県熱海市伊豆山433-13",
+      "detail": "",
+      "price": "0557-80-3666",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A0VQD&hidSELECTCOD1=MR020&hidSELECTCOD2=001",
+      "link2": "/hotels/izusan/"
+    },{
+      "image": "./images/tab/g3-3.jpg",
+      "erea": "静岡",
+      "path": "伊東",
+      "title": "ウェルネスの森 伊東",
+      "describe": "ファミリーやグループで愉しむアクティブな休日",
+      "information": "〒414-0055<br>静岡県伊東市岡1348-3",
+      "detail": "",
+      "price": "0557-38-7111",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BLF&hidSELECTCOD1=MR040&hidSELECTCOD2=001",
+      "link2": "/hotels/ito/"
+    },{
+      "image": "./images/tab/g3-4.jpg",
+      "erea": "静岡",
+      "path": "伊東",
+      "title": "<span class='text-samll-title'>淘心庵</span> 米屋",
+      "describe": "静寂さ漂う、和のオーベルジュ",
+      "information": "〒414-0054<br>静岡県伊東市鎌田280",
+      "detail": "",
+      "price": "0557-37-1128",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BLM&hidSELECTCOD1=MR090&hidSELECTCOD2=001",
+      "link2": "/hotels/komeya/"
+    },{
+      "image": "./images/tab/g3-1.jpg",
+      "erea": "静岡",
+      "path": "修善寺",
+      "title": "<span class='text-samll-title'>湯回廊</span> 菊屋",
+      "describe": "創業380年の情緒と風格漂う癒し宿<br class='off-sp'>",
+      "information": "〒410-2416<br>静岡県伊豆市修善寺874-1",
+      "detail": "",
+      "price": "0558-72-2000",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BK1&hidSELECTCOD1=MR110&hidSELECTCOD2=001",
+      "link2": "/hotels/kikuya/"
+    },{
+      "image": "./images/tab/g3-5.jpg",
+      "erea": "静岡",
+      "path": "伊豆高原",
+      "title": "<span class='text-samll-title'>杜の湯</span> きらの里",
+      "describe": "心に残るふるさとの原風景と充実の湯殿",
+      "information": "〒413-0232<br>静岡県伊東市八幡野1326-5",
+      "detail": "",
+      "price": "0557-55-3311",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BL0&hidSELECTCOD1=MR080&hidSELECTCOD2=001",
+      "link2": "/hotels/kiranosato/"
+    }
+  ],
+  "group_06": [
+    {
+      "image": "./images/tab/g3-8.jpg",
+      "erea": "三重",
+      "path": "伊勢",
+      "title": "<span class='text-samll-title'>いにしえの宿</span> 伊久",
+      "describe": "癒しの杜を間近に臨む、全室露天風呂付",
+      "information": "〒516-0023<br>伊勢市宇治館町字岩井田山679-2",
+      "detail": "",
+      "price": "0596-20-3777",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BJO&hidSELECTCOD1=MR210&hidSELECTCOD2=001",
+      "link2": "/hotels/ikyu/"
+    },{
+      "image": "./images/tab/g3-6.jpg",
+      "erea": "岐阜",
+      "path": "奥飛騨",
+      "title": "<span class='text-samll-title'>匠の宿</span> 深山桜庵",
+      "describe": "奥飛騨の山懐、匠が織りなす癒しの湯宿",
+      "information": "〒506-1433<br>岐阜県高山市奥飛騨温泉郷平湯229",
+      "detail": "",
+      "price": "0578-89-2799",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BMZ&hidSELECTCOD1=MR150&hidSELECTCOD2=001",
+      "link2": "/hotels/miyamaouan/"
+    },{
+      "image": "./images/tab/g3-7.jpg",
+      "erea": "岐阜",
+      "path": "飛騨高山",
+      "title": "<span class='text-samll-title'>飛騨花里の湯</span> 高山桜庵",
+      "describe": "飛騨の情緒に浸る、和のシティホテル",
+      "information": "〒506-0026<br>高山市花里町4丁目313番地",
+      "detail": "",
+      "price": "0577-37-2230",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BMI&hidSELECTCOD1=MR170&hidSELECTCOD2=001",
+      "link2": "/hotels/takayama/"
+    },{
+      "image": "./images/tab/g3-12.jpg",
+      "erea": "岐阜",
+      "path": "白川郷",
+      "title": "御宿 結の庄",
+      "describe": "2019年3月8日、グランドオープン！",
+      "information": "〒501-5625<br>岐阜県大野郡白川村飯島908-2",
+      "detail": "",
+      "price": "05769-6-2005<span class='date-phone'>（9:00～20:00）</span>",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BMH&hidSELECTCOD1=MR320&hidSELECTCOD2=001",
+      "link2": "https://www.hotespa.net/resort/hotellist/shirakawago/"
+    }
+  ],
+  "group_07": [
+    {
+      "image": "./images/tab/g3-9.jpg",
+      "erea": "京都",
+      "path": "嵐山",
+      "title": "京都 嵐山温泉 花伝抄",
+      "describe": "京の雅を愉しむ、嵐山の滞在<br class='off-sp'><br class='off-sp'>",
+      "information": "〒616-0003<br>京都府京都市西京区嵐山西一川町5-4",
+      "detail": "",
+      "price": "075-863-0489",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BK3&hidSELECTCOD1=MR200&hidSELECTCOD2=001",
+      "link2": "/hotels/kadensho/"
+    },{
+      "image": "./images/tab/g3-10.jpg",
+      "erea": "京都",
+      "path": "五条",
+      "title": "京都五条 ホテル 秀峰閣",
+      "describe": "京の風情を気軽に愉しむ癒し宿<br class='off-sp'><br class='off-sp'>",
+      "information": "〒605-0846<br>京都府京都市東山区五条橋東2-1",
+      "detail": "",
+      "price": "075-531-2233",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BRY&hidSELECTCOD1=MR100&hidSELECTCOD2=001",
+      "link2": "/hotels/shuhokaku/"
+    },{
+      "image": "./images/tab/g3-11.jpg",
+      "erea": "和歌山",
+      "path": "南紀白浜",
+      "title": "<span class='text-samll-title'>浜千鳥の湯</span> 海舟",
+      "describe": "岬そのものが宿、海を漂うような非日常の時間",
+      "information": "〒649-2211<br>和歌山県西牟婁郡白浜町1698-1",
+      "detail": "",
+      "price": "0739-82-2220",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BJG&hidSELECTCOD1=MR160&hidSELECTCOD2=001",
+      "link2": "/hotels/kaisyu/"
+    },{
+      "image": "./images/tab/g7-1.jpg",
+      "erea": "兵庫",
+      "path": "城崎",
+      "title": "<span class='text-samll-title'>城崎 円山川温泉</span> 銀花",
+      "describe": "川の流れと美食に癒される隠れ宿<br class='ps--pc' /><br class='ps--pc' />",
+      "information": "〒669-6123<br>兵庫県豊岡市小島1177",
+      "detail": "",
+      "price": "0796-28-3515",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1IIW&hidSELECTCOD1=MR130&hidSELECTCOD2=001",
+      "link2": "/hotels/ginka/"
+    }
+  ],
+  "group_08": [
+    {
+      "image": "./images/tab/g8-1.jpg",
+      "erea": "香川",
+      "path": "こんぴら温泉郷",
+      "title": "ことひら温泉 御宿 敷島館",
+      "describe": "【NEW】令和元年8月　オープン<br>“こんぴらさん”の表参道に、「敷島館」復活",
+      "information": "〒766-0001<br>香川県仲多度郡琴平町川西713-1",
+      "detail": "",
+      "price": "",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BRH&hidSELECTCOD1=MR350&hidSELECTCOD2=001",
+      "link2": "/hotels/shikishimakan/"
+    },{
+      "image": "./images/tab/g4-1.jpg",
+      "erea": "島根",
+      "path": "出雲",
+      "title": "<span class='text-samll-title'>いにしえの宿</span> 佳雲",
+      "describe": "全室客室風呂付き、贅を尽くした和の湯宿<br class='off-sp'><br class='off-sp'>",
+      "information": "〒699-0721<br>島根県出雲市大社町修理免字本郷1443-1",
+      "detail": "",
+      "price": "0853-53-8877",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BLD&hidSELECTCOD1=MR280&hidSELECTCOD2=001",
+      "link2": "/hotels/izumo/keiun/"
+    },{
+      "image": "./images/tab/g4-2.jpg",
+      "erea": "島根",
+      "path": "出雲",
+      "title": "<span class='text-samll-title'>お宿</span> 月夜のうさぎ",
+      "describe": "落ち着きと華やぎがある、和のホテル",
+      "information": "〒699-0721<br>島根県出雲市大社町修理免字本郷1443-1",
+      "detail": "",
+      "price": "0853-53-8877",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BL8&hidSELECTCOD1=MR270&hidSELECTCOD2=001",
+      "link2": "/hotels/izumo/usagi/"
+    }
+  ],
+  "group_09": [
+    {
+      "image": "./images/tab/g4-3.jpg",
+      "erea": "鹿児島",
+      "path": "霧島",
+      "title": "ラビスタ霧島ヒルズ",
+      "describe": "ヨーロッパの風薫る、全室露天風呂付きのプレミアム・リゾート",
+      "information": "〒899-6603<br>鹿児島県霧島市牧園町高千穂3812-6",
+      "detail": "",
+      "price": "0995-64-4321<span class='date-phone'>（9:00～21:00）</span>",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BK5&hidSELECTCOD1=MR310&hidSELECTCOD2=001",
+      "link2": "/resort/hotellist/kirishima/"
+    },{
+      "image": "./images/tab/g4-4.jpg",
+      "erea": "沖縄",
+      "path": "北谷",
+      "title": "ザ・ビーチタワー沖縄",
+      "describe": "日常からときはなたれる南の島の楽園<br class='off-sp'><br class='off-sp'>",
+      "information": "〒904-0115<br>沖縄県中頭郡北谷町美浜8-6",
+      "detail": "",
+      "price": "098-921-7711",
+      "btn":"空室状況を表示する",
+      "link": "https://asp.hotel-story.ne.jp/ver3d/ASPP0200.asp?hidSELECTPLAN=A1BL5&hidSELECTCOD1=MR070&hidSELECTCOD2=001",
+      "link2": "/hotels/okinawa/"
+    }
+  ],
+
+  "message": "..."
+}

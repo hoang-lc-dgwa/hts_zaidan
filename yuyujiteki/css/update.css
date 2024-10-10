@@ -1,0 +1,806 @@
+@charset "UTF-8";
+body.yuyu {
+  min-width: 1080px;
+  position: static !important;
+}
+body.yuyu:before {
+  display: none !important;
+}
+:root {
+  --yumin: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", sans-serif;
+  --gothic: "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, メイリオ, Meiryo, sans-serif;
+}
+.header_top__samp {
+  font-size: 18px;
+  font-family: var(--gothic);
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.444;
+}
+.navigation-row ul.nav_grand li a:hover , .navigation-row ul.nav_grand li a:focus{
+  color: #fff !important;
+  opacity: .7;
+}
+.header_top--left {
+  padding-right: 20px;
+}
+.header_top--left ul {
+  align-items: center;
+}
+.header_top--left ul li {
+  margin-left: 30px;
+}
+.header_top__btn {
+  background-color: #dfc174;
+  display: inline-block;
+  width: 160px;
+  padding: 7px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--gothic);
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+}
+.header_top__btn:focus {
+  color: #000;
+}
+
+.navigation-row .navigation-tag {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 30px;
+  padding-left: 12px;
+}
+.navigation-row .nav_grand {
+  border: 0;
+}
+.navigation-row .close_nav_left {
+  top: 19px;
+  right: 21px;
+}
+.navigation-row .navigation-tag__cap {
+  color: #fff;
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: var(--gothic);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: relative;
+  top: 2px;
+  line-height: 1.4;
+}
+.navigation_box {
+  height: auto !important;
+  width: 360px !important;
+  background-color: #2a5298 !important;
+}
+.navigation-row ul.nav_grand{
+  border: 0 !important;
+  padding: 50px 12px 34px 28px;
+  color: #fff;
+}
+.navigation-row ul.nav_grand li {
+  margin-bottom: 44px;
+}
+.navigation-row ul.nav_grand li a {
+  color: #fff;
+}
+.yuyu b {
+  font-weight: bold;
+}
+.yuyu-mainvisual {
+  position: relative;
+  display: flex;
+  margin-top: 76px;
+  justify-content: center;
+  align-items: center;
+}
+.yuyu-mainvisual__mv {
+  max-width: 1400px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-top: -40px;
+  z-index: 99;
+  border: 10px slid red;
+  position: absolute;
+}
+.yuyu-mainvisual__mv img {
+  width: 26%;
+}
+.yuyu-notify__title {
+  font-size: 36px;
+  font-family: var(--yumin);
+  color: rgb(255, 119, 0);
+  line-height: 1.333;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.yuyu-notify__copy {
+  font-size: 24px;
+  font-family:  var(--gothic);
+  color: rgb(51, 51, 51);
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.yuyu-notify__mask {
+  font-size: 36px;
+  font-family: var(--gothic);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  padding: 12px 0 6px 0;
+  text-align: center;
+  background-color: #ff9900;
+}
+.yuyu-notify__para {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-style: solid;
+  padding-top: 20px;
+  border-width: 2px;
+  border-color: rgb(255, 153, 0);
+}
+.yuyu-notify {
+  padding: 60px 0 142px;
+}
+.yuyu-up0509 {
+  margin-top: 60px !important;
+
+}
+.yuyu-mainvisual__img {
+  width: 100%;
+}
+.yuyu-mainvisual__img img {
+  width: 100%;
+}
+.yuyu-wrap {
+  background-image: url(../img/yuyu_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 407px;
+  position: relative;
+  top: -1px;
+}
+.yuyu-about {
+  padding-bottom: 94px;
+}
+.mask-red {
+  color: #ff5329;
+  font-weight: bold;
+} 
+.yuyu-about__copy {
+  font-size: 18px;
+  font-family: var(--gothic);
+  color: rgb(51, 51, 51);
+  line-height: 2;
+  text-align: left;
+  padding-bottom: 52px;
+}
+.yuyu-col {
+  width: 49.7%;
+}
+.yuyu-row {
+  max-width: 1018px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.yuyu-cap {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.yuyu-title {
+  font-size: 24px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: rgb(51, 51, 51);
+  line-height: 2;
+  text-align: center;
+}
+.yuyu-logo__step big {
+  font-size: 28px;
+}
+.yuyu-member__min {
+  font-size: 24px;
+}
+.yuyu-member__copy--row {
+  max-width: 466px;
+  margin: 61px auto 49px !important;
+  padding-bottom: 10px !important;
+}
+.yuyu-member {
+  padding: 68px 0 88px;
+  background-image: url(../img/yuyu-member-pattern.jpg);
+}
+.yuyu-logo__number {
+  width: 106px;
+  font-size: 48px;
+  line-height: 1;
+  position: relative;
+  color: #333333;
+  font-family: var(--yumin);
+  font-weight: 500;
+  padding-left: 8px;
+}
+/*.yuyu-logo__number:before {
+content: "";
+width: 117px;
+height: 117px;
+display: block;
+position: absolute;
+left: -20px;
+top: -22px;
+}*/
+.yuyu-member__thumb {
+  padding-top: 5px;
+}
+.copy_space_next {
+  position: relative;
+  left: -12px;
+  margin-right: -14px;
+}
+.copy_space_pre {
+  position: relative;
+  right: -12px;
+  margin-left: -13px;
+}
+.yuyu-member__upmart {
+  position: relative;
+  margin: 0 -15px !important;
+}
+.yuyu-logo__number:after {
+  content: "";
+  width: 146px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: -31px;
+  top: 46px;
+  border-top: 1px solid #333;
+}
+.color-ff5329 {
+  color: #ff5329;
+}
+.color-B08B47 {
+  color: #B08B47;
+}
+
+.yuyu-row--member {
+  align-items: flex-start;
+  min-height: 344px;
+}
+.yuyu-btn {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.yuyu-member__copy3 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  line-height: 1.21;
+  font-family: var(--gothic);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.yuyu-member__big {
+  font-size: 36px;
+  line-height: 1.3;
+  color: #ff5329;
+  position: relative;
+  top: 6px;
+}
+.yuyu-box {
+  max-width: 1018px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: 0 19px 30px 30px;
+  margin-bottom: 40px;
+}
+.yuyu-logo {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-color: #dfc174;
+  padding: 16px 20px;
+  margin: 0 -19px 54px -30px;
+  box-sizing: border-box;
+}
+.yuyu-logo__step {
+  padding: 0 15px;
+  font-size: 24px;
+  color: rgb(51, 51, 51);
+  line-height: 1;
+  font-family: var(--gothic);
+  font-weight: bold;
+}
+.yuyu-member__copy {
+  font-family: var(--yumin);
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  line-height: 1.5;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  margin: 0 10px 36px;
+  padding-bottom: 8px;
+}
+.yuyu-member__copy2 {
+  font-family: var(--gothic);
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  line-height: 1.583;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.yuyu-member--lcop {
+  line-height: 1.21 !important;
+}
+.yuyu-member__mint {
+  font-size: 24px;
+  line-height: 1.7;
+  display: block;
+}
+.yuyu-member__min-mark {
+  color: #ff5329;
+  font-weight: normal;
+  font-size: 16px;
+  position: relative;
+  left: -8px;
+}
+.yuyu-member__min-mar {
+  padding-top: 16px;
+  display: inline-block;
+}
+.yuyu-member-marpbot {
+  margin-bottom: 34px !important;
+}
+.yuyu-member__min-mark {
+  color: #ff5329;
+  font-weight: normal;
+}
+.yuyu-member__min-mar {
+  padding-top: 16px;
+  display: inline-block;
+}
+.yuyu-logo__number+.yuyu-logo__step {
+  position: relative;
+  top: 1px;
+}
+.yuyu-logo__step-big {
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 28px;
+    color: rgb(51, 51, 51);
+    line-height: 1;
+    font-family: var(--gothic);
+    font-weight: bold;
+}
+.yuyu-about__title {
+  font-size: 24px;
+  font-family: "sans-serif";
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  line-height: 2;
+  text-align: center;
+}
+.yuyu-cap__member {
+  margin-bottom: 83px;
+  text-align: center;
+}
+
+
+.yuyu-btn-next_row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.yuyu-btn-next {
+  border: 1px solid #4D4D4D;
+  display: inline-block;
+  width: 237px;
+  height: 50px;
+  line-height: 48px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  background-color: #4D4D4D;
+  color: #fff;
+}
+.yuyu-btn-next:link,
+.yuyu-btn-next:visited,
+.yuyu-btn-next:active {
+  color: #fff;
+}
+.yuyu-btn-next:after {
+  content: "";
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  position: absolute;
+  right: 13px;
+  top: 20px;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.yuyu-btn-next:hover {
+  opacity: .5;
+}
+
+.yuyu .header_top__btn-red {
+  background-color: #fe7553;
+  color: #fff;
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .yuyu-btn-next_row {
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .yuyu-btn-next {
+    width: 100%;
+    font-weight: normal;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    max-width: 480px;
+  }
+  .yuyu-btn-next:after {
+    right: 21px;
+    top: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  body.yuyu {
+    min-width: 100%;
+  }
+  .copy_space_next {
+    position: relative;
+    left: -6px;
+    margin-right: -7px;
+  }
+  .copy_space_pre {
+    position: relative;
+    right: -6px;
+    margin-left: -7px;
+  }
+  .yuyu-mainvisual {
+    margin-top: 50px;
+  }
+  .logo-resort--sp {
+    width: 84px;
+  }
+  .yuyu .btn_nav_left {
+    font-size: 12px;
+    height: 70px;
+  }
+  .yuyu .navigation {
+    border: 0;
+  }
+  .yuyu .header_top {
+    flex-wrap: nowrap;
+    height: 70px;
+  }
+  .yuyu .header_top__btn {
+    width: 84px;
+    padding: 6px 5px 4px;
+    font-size: 12px;
+  }
+  .yuyu .benefits-box {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-top: -30px;
+    margin-right: 7px;
+    padding: 0 !important;
+    width: 174px;
+    position: relative;
+  }
+  .benefits-box li {
+    width: 48%;
+    margin-left: 0 !important;
+  }
+  .benefits-box li.benefits-box-red {
+    width: 100%;
+    margin-left: 0 !important;
+    position: absolute;
+    bottom: -29px;
+  }
+  .benefits-box li.benefits-box-red .header_top__btn-red {
+    width: 100%;
+  }
+
+                        
+  .yuyu .header_top--left ul li {
+    margin-left: 6px;
+  }
+  .yuyu .header_top--left {
+    padding-right: 0;
+    flex-basis: content;
+    padding-right: 2px;
+  }
+  .yuyu .header_top_right ul {
+    padding: 14px 12px;
+    justify-content: flex-end;
+  }
+  .yuyu-row {
+    flex-direction: column;
+  }
+  .yuyu-btn {
+    margin-bottom: 6px;
+  }
+  .yuyu-col {
+    width: 100%;
+  }
+  .yuyu-about {
+    padding: 0 20px 94px;
+  }
+  .yuyu-member {
+    padding: 32px 20px 44px;
+    background-image: url(../img/yuyu-member-pattern_sp.jpg);
+    background-size: 56px auto;
+  }
+  .yuyu-logo__step-big {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0;
+  }
+  .yuyu-logo__step--fl {
+    padding-right: 9px !important;
+    margin: 0 auto !important;
+  }
+  .yuyu-wrap {
+    background-image: url(../img/yuyu_bg_sp.jpg);
+    background-size: 100% auto;
+  }
+  #backtop__page {
+    width: 122px;
+    right: 18px;
+    bottom: 26px;
+  }
+  .yuyu-notify {
+    padding: 42px 20px 50px;
+  }
+  .yuyu-notify__title {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+  }
+  .yuyu-member__mint {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    display: block !important;
+    margin-bottom: 5px !important;
+  }
+  .yuyu-member__min-mar {
+    padding-top: 0 !important;
+  }
+  .yuyu-member__min-mark {
+    font-size: 12px !important;
+    margin: 0 -5px !important;
+  }
+  .yuyu-notify__copy {
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding: 0 6px;
+    line-height: 1.6;
+  }
+  .yuyu-member__copy2 {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .yuyu-notify__mask {
+    font-size: 20px;
+    padding: 4px 0 2px 0;
+  }
+  .yuyu-notify__para {
+    padding-top: 13px;
+    border-width: 1px;
+  }
+  .yuyu-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .yuyu-cap {
+    width: 240px;
+    margin: 0 auto 25px;
+  }
+  .yuyu-about__copy {
+    font-size: 14px;
+    line-height: 1.6;
+    padding-bottom: 24px;
+  }
+  .yuyu-about {
+    padding-bottom: 50px;
+  }
+  .yuyu-about__title {
+    font-size: 18px;
+  }
+  .yuyu-cap__member {
+    margin: 0 auto 34px;
+    width: 160px;
+  }
+  .yuyu-box {
+    padding: 0 16px 30px 16px;
+    margin-bottom: 22px;
+  }
+  .yuyu-logo {
+    padding: 11px 15px;
+    margin: 0 -16px 10px -16px;
+  }
+  .yuyu-member__min {
+    font-size: 14px;
+    padding: 6px 0 2px;
+    display: inline-block;
+  }
+  .yuyu-member__big .yuyu-member__min {
+    font-size: 22px;
+  }
+  .yuyu-member__copy {
+    font-size: 18px;
+    padding-bottom: 6px;
+    margin: 0 10px 12px;
+  }
+  .yuyu-member__copy3 {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+  .yuyu-member__big {
+    font-size: 22px;
+    top: 2px;
+  }
+  .yuyu-member__thumb {
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  .yuyu-logo__number {
+    width: 60px;
+    font-size: 22px;
+    padding-left: 0;
+  }
+  .yuyu-logo__step {
+    min-width: 96px;
+    width: 96px;
+    padding: 0 4px;
+    font-size: 12px;
+  }
+  .yuyu-logo--spmar {
+    position: relative;
+    top: 2px;
+  }
+  .yuyu-logo__number:after {
+    width: 60px;
+    left: -16px;
+    top: 18px;
+    transform: rotate(-48deg);
+  }
+  .yuyu-logo__step big {
+    font-size: 14px;
+  }
+  .yuyu-logo__step--wrap {
+    width: 425px;
+  }
+
+  .yuyu-logo__number--fn {
+    width: 15px;
+    font-size: 22px;
+    padding-left: 0;
+  }
+  .yuyu-logo__step--fl {
+    margin-left: -50%;
+    padding-left: 17px;
+    min-width: 110px;
+  }
+  .yuyu-logo__step--fr {
+    flex: 1;
+  }
+  .yuyu-member__copy--row {
+    margin: 16px 20px 6px !important;
+    padding-bottom: 4px !important;
+  }
+  .yuyu-box {
+    box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 12%)
+  }
+  .navigation-row .navigation-tag__cap {
+    font-size: 12px;
+    padding-left: 5px;
+  }
+  .navigation_box ul.nav_grand li {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+  .navigation_box {
+    width: 246px;
+    padding: 25px 15px;
+  }
+  .navigation-tag img {
+    width: 14px;
+  }
+  .navigation-row .navigation-tag {
+    padding-bottom: 14px;
+    padding-left: 2px;
+  }
+  .navigation_box_main {
+    padding-bottom: 4px;
+  }
+  .navigation-row ul.nav_grand {
+    padding: 24px 0 12px 10px;
+  }
+  .navigation-row .close_nav_left {
+    top: 7px;
+    right: 11px;
+    width: 10px;
+    z-index: 999;
+  }
+
+}
+
+.update_text-red {
+  padding-top: 12px;
+  color: red;
+  line-height: 1.6;
+  font-size: 17px;
+  display: block;
+}
+.yuyu-mainvisual__mv-title {
+  width: 41% !important;
+  display: flex;
+  font-size: 10px;
+  top: -26%;
+  left: calc((100% - 41%) / 2);
+  margin: 0 auto 50px;
+  position: absolute;
+}
+@media screen and (min-width: 1081px) and (max-width: 5001px) {
+  .yuyu-mainvisual__mv img {
+    width: 24%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1081px) {
+  .yuyu-mainvisual__mv-title {
+    top: -27% !important;
+  }
+  .yuyu-mainvisual__mv img {
+    width: 22%;
+    left: calc((100% - 80%) / 2);
+  }
+  .yuyu-mainvisual__mv-title {
+    width: 35% !important;
+    left: calc((100% - 35%) / 2) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .update_text-red {
+    font-size: 13px;
+    line-height: 1.5;
+}
+  .yuyu-mainvisual__mv-title {
+    top: -33vw !important;
+  }
+  .yuyu-mainvisual__mv-title {
+    width: 83% !important;
+    left: calc((100% - 83%) / 2);
+  }
+}
+

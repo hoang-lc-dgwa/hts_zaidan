@@ -1,0 +1,25 @@
+<div class="screen1">
+	<h5 class="screen1_title">全国旅行支援事業のご案内</h5>
+	<p class="screen1_copy" style="padding-bottom: 16px;">
+	「直幸往復便」は、全国旅行支援事業の対象と<br class="ps--sp">なりました。<br>
+	2022年10月12日（水）～2022年12月20日（火）までのご宿泊利用において同事業の適用を<br class="ps--sp">いたします。<br>
+	適用となる場合は、ご宿泊時に宿にて<br class="ps--sp">「同意確認書」へのご記入をお願いいたします。<br>
+	</p>
+	<ul class="screen1_copy">
+		<li style="text-indent: -1em;padding-left:1em;font-size:12px;">
+		※「直幸往復便」は『宿泊を伴う旅行商品（交通付）』の適用です。<br>
+		</li>
+		<li style="text-indent: -1em;padding-left:1em;font-size:12px;">
+		※全国旅行支援事業の予算上限に達し次第、ご案内・適用は終了いたします。<br>
+		</li>
+		<li style="text-indent: -1em;padding-left:1em;font-size:12px;">
+		※適用されるにはワクチン接種証明・身分証明書等の<br class="ps--sp">ご提示が必要です。<br>
+		必要な書類・証明書等のご提示がいただけない場合は、全国旅行支援事業を適用できません。<br>
+		詳しくは、各都道府県の支援事業案内を<br class="ps--sp">ご確認ください。<br>
+		<a href="https://www.mlit.go.jp/kankocho/page06_000261.html" target="_blank" class="screen1_link">https://www.mlit.go.jp/kankocho/page06_000261.html</a>
+		</li>
+		<li style="text-indent: -1em;padding-left:1em;font-size:12px;">
+		※2022年10月20日現在
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,22 @@
+.screen1_space,
+.screen1_space2 {
+    margin-bottom: 6rem;
+}
+.screen1_space2 {
+    padding-top: 9px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+.screen1_space2:hover {
+    opacity: .8;
+}
+.screen1_title {
+    font-weight: 900;
+    color: rgb(255, 119, 0);
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .screen1_space, .screen1_space2 {
+        margin-bottom: 3rem;
+    }
+}

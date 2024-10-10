@@ -1,0 +1,757 @@
+/* note style  
+ps-view--pc
+ps-view--sp
+span ->  not font blod
+small -> not font blod and font size 12px
+ps--show-modal -> show moude 
+ps--fl-l -> float left
+*/
+
+
+@font-face {
+  font-family: NotoSerifCJKjp-SemiBold;
+  src: url('../font/NotoSerifCJKjp-SemiBold.otf');
+}
+
+@font-face {
+  font-family: NotoSansCJKjp-Regular;
+  src: url('../font/NotoSansCJKjp-Regular.otf');
+}
+
+/* ============ FOOTER STANDARD ============== */
+
+.width-900px.wrap-width{
+    width: 950px;
+}
+
+.ps-img-alg-right{
+float: right;
+    width: 338px;
+    padding: 0px 0px 5px 20px;
+    background: #fff;
+}
+.ps-view--sp{
+    display: none;
+}
+.ps--cleared:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.img-alg-right img{
+    max-width: 100%;
+}
+
+.ps--show-modal{
+    display: none;
+}
+
+.container--notification-modal-show .ps--show-modal{
+    display: block;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.mg-b-30{
+    margin-bottom: 30px;
+}
+
+.mg-t-25{
+    margin-top: 25px;
+}
+
+.hover:hover {
+    opacity: .8 !important;
+}
+
+.no_bg--white{
+    background: white;
+}
+.contentSub_inner {
+    margin: 68px 0;
+}
+.accoridon--data-content{
+    display: none;
+}
+.s-tg-c{
+    text-align: center;
+    font-weight: bold;
+}
+.contentSub_box_ctn small {
+    font-size: 85%;
+}
+.wrap-width{
+    width: 700px;
+    margin: 0px auto;
+}
+.container--notification-cell{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: #000;
+    top: 0px;
+}
+
+#container--notification{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0px; 
+    display: none;
+    position: fixed;
+    z-index: 999999999;
+    overflow: hidden;
+}
+
+.contentSub_box_ctn .is--bold {
+
+}
+
+.contentSub_box_ctn a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.contentSub_box_ctn a:hover{
+    text-decoration: none;
+}
+
+#contentSub_box_ctn cite {
+    font-size: 12px;
+    font-weight: normal;
+}
+#container--notification span{
+   font-weight: lighter; 
+}
+
+#container--notification small{
+    font-size: 12px;
+    font-weight: lighter;
+    
+}
+
+
+
+#container--notification.container-notification-active{
+    display: block;
+}
+
+.container--notification{
+    position: relative;
+    z-index: 2;
+    /*height: calc(100% - 100px);
+    overflow-y: auto;
+    overflow-x: hidden;*/
+    margin-top: 100px;
+}
+
+.bg_container--notification{
+    background: #fff;
+}
+
+#container--notification .accor-content{
+    display: block;
+}
+
+.container--notification-close{
+    position: relative;
+}
+
+.container--notification-close:hover{
+    cursor: pointer;
+}
+
+/* .accoridon--container-box{
+    padding-bottom: 10px;
+} */
+
+.container--notification .accoridon--container-box,
+.container--notification .accoridon--author{
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+.container--notification .accoridon--container-box strong{
+    display: block;
+    background: #f6f6f6;
+    padding: 10px 23px 10px;
+    margin :9px 0px;
+}
+
+.container--notification .contentSub_box_ctn{
+    padding: 22px 0px 0px;
+}
+
+.container--notification .accoridon--author{
+    margin-top: 0px;
+    padding-top: 18px;
+}
+
+.hidden--scroll{
+
+}
+.container--notification .accoridon--data-title.accor-title{
+}
+
+.container--notification .accoridon--data-content{
+    font-size: 13px;
+}
+
+.contentSub_inner{
+    border: 1px solid #b0954b;
+}
+.contentSub_box_ttl{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    color: rgb(148, 38, 0);
+    position: relative;
+    padding-left: 20px;
+}
+
+.contentSub_box_ttl:before{
+    content: "";
+    width: 8px;
+    height: 14px;
+    position: absolute;
+    top: 8.5px;
+    left: 0;
+    background: url('../img/arrow_right_red.png') no-repeat;
+}
+
+.contentSub_box_ttl:hover {
+    opacity: .8;
+}
+
+.ps-not-show a{
+    color: #d35a43;
+    text-decoration: none;
+}
+
+.ps-not-show a:hover{
+    color: #d35a43
+}
+.contentMain{
+    margin-bottom: -20px;
+}
+
+.contentMain .contentSub_box_ttl:hover{
+   cursor: pointer;
+}
+.accoridon--data{
+    padding: 30px 35px 22px;
+    text-align: left;
+}
+
+.accoridon--author{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.625;
+    margin-top: 35px;
+}
+
+.accoridon--container-title{
+    font-size: 21px;
+}
+
+.container--notification-modal-show .accoridon--container-title{
+    padding: 23px 0 23px;
+    margin-bottom: 0;
+}
+
+.accoridon--container-title h2{
+    font-size: 24px;
+    color: #6a5217;
+    margin:0px;
+    line-height: 1;
+    width: auto;
+    border: none;
+    padding: 20px 0;
+    font-family: NotoSerifCJKjp-SemiBold, serif;
+}
+
+.container--notification-modal-show .accoridon--container-title h2{
+    padding: 0;
+}
+
+.container--notification-modal-show h3{
+    text-align: center;
+    border-top: 1px solid #b0954b;
+    border-bottom: 1px solid #b0954b;
+    line-height: 1.6;
+    border-collapse: collapse;
+    padding: 12px 0px 9px;
+    font-size: 20px;
+}
+
+.container--notification-modal-show h3:before{
+    display: none;
+}
+
+.accoridon--data-content .contentSub_box_ctn{
+    font-size: 14px;
+    line-height: 1.5;
+    margin:0px;
+    text-align: left;
+    color: #000000;
+    font-family: NotoSansCJKjp-Regular, serif;
+}
+
+.view_pc-off{
+    display: none;
+}
+
+.scroll--overflow{
+    overflow-y: auto;
+    overflow: hidden scroll;
+    height: 65vh;
+}
+
+.container--notification-close .close_image_pc{
+    top: 12px;
+    right: 12px;
+    width: 18px !important;
+    position: absolute;
+    z-index: 999;
+}
+
+.scroll--pd-r-30 .accor-title,
+.scroll--pd-r-30 .accoridon--author{
+     margin-right: 30px;
+}
+.scroll--pd-r-30 .accor-content{
+    padding-right: 30px;
+}
+
+.scroll--pd-r-30  .container--notification .accoridon--container-box,
+.scroll--pd-r-30  .container--notification .accoridon--author{
+    padding-right: 0px;
+}
+
+.z-index-2{
+    z-index: 51 !important;
+}
+
+.ps--fl-l{
+    float: left;
+}
+ul.list_style_tb {
+    padding-left: 15px;
+}
+ul.list_style_tb li{
+    list-style: "※";
+}
+
+.text_area_standard{
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+
+
+@media screen and (max-width: 980px) {
+    .width-900px.wrap-width{
+        width: 700px;
+    }
+}
+
+@media screen and (min-width: 681px) {
+    .sp-on {
+        display: none;
+    }
+}
+@media screen and (max-width: 680px) {
+
+    .text_area_standard{
+        font-size: 14px;
+        margin: 10px 0 0 0;
+    }
+
+    .contentSub_inner {
+        margin: 0;
+    }
+    .ps-img-alg-right{
+        width: auto;
+        padding: 0px;
+        margin-bottom: 10px;
+        float: none;
+    }
+    .sp-off {
+        display: none;
+    }
+
+
+    .notification--media{
+        padding: 0px;
+    }
+
+    .container--notification-modal-show .ps--show-modal{
+        display: none;
+    }
+
+    .container--notification-modal-show .accoridon--container-title h2{
+        font-size: 16px;
+    }
+
+    .mg-b-30{
+        margin-bottom: 15px;
+    }
+    .container {
+        width: 100%;
+    }
+
+    .accoridon--data{
+        padding: 20px 20px 7px;
+    }
+
+    .accoridon--container-title h2{
+        font-size: 18px;
+        padding: 15px 0;
+    }
+
+
+
+    .scroll--pd-r-30 .accor-title,
+    .scroll--pd-r-30 .accoridon--author{
+        margin-right: 20px;
+    }
+    .scroll--pd-r-30 .accor-content{
+        padding-right: 20px;
+    }
+
+    .scroll--pd-r-30  .container--notification .accoridon--container-box,
+    .scroll--pd-r-30  .container--notification .accoridon--author{
+        padding-right: 0px;
+    }
+
+    .container--notification-close .close_image_pc{
+        top: 0px;
+        right: 0px;
+        width: 14px !important;
+    }
+    .container--notification{
+        overflow-y: visible;
+        overflow-x: visible;
+        margin-top: 40px;
+    }
+    .view_sp-off{
+        display: none;
+    }
+    .view_pc-off{
+        display: block;
+    }
+    .wrap-width,
+    .width-900px.wrap-width{
+        width: 95%;
+    }
+    .container--notification-modal-show .accoridon--container-title{
+        padding: 13px 0px 13px;
+        font-size: 15px;
+        margin-bottom:0px;
+    }
+
+    .container--notification-modal-show h3{
+        font-size: 15px;
+        padding: 8px 0px 8px;
+        line-height: 1.3;
+    }
+    .contentSub_box_ttl{
+        font-size: 16px;
+        padding-left: 15px;
+    }
+
+    .contentSub_box_ttl:before{
+        width: 6px;
+        height: 11px;
+        background-size: contain;
+        top: 6px;
+    }
+
+   .accoridon--data-content .contentSub_box_ctn{
+        font-size: 12px;
+        padding: 10px 0px 0px; 
+    }
+    .container--notification .accoridon--container-box, .container--notification .accoridon--author{
+       padding-right: 20px;
+       padding-left: 20px;
+    }
+    .accoridon--author{
+        padding-top: 20px; 
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .container--notification-close{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 22px;
+        height: 22px;
+        margin: 10px;
+    }
+
+    .container--notification .accoridon--container-box strong{
+       padding: 8px 15px 8px;
+       margin: 6px 0px;
+    }
+
+    .container--notification .accoridon--author{
+        padding-top: 10px;
+    }
+
+    .scroll--overflow{
+        overflow-y: auto;
+        overflow: hidden scroll;
+        height: 55vh;
+    }
+    .sp--off{
+        display: none;
+    }
+    .sp--on{
+        display: block;
+    }
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    ::-webkit-scrollbar:vertical {
+        width: 6px;
+    }
+    ::-webkit-scrollbar:horizontal {
+        height: 6px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: gray;
+    }
+    ::-webkit-scrollbar-track {
+        
+    }
+     .container--notification .pd-r--0{
+        padding-right: 0px;
+    }
+
+    #container--notification cite, #container--notification small{
+        font-size: 10px;
+    }
+    .ps-view--pc{
+        display: none;
+    }
+    .mg-t-25{
+        margin-top: 13px;
+    }
+    .ps-view--sp{
+        display: block;
+    }
+}
+
+
+
+/* PAGE express */
+
+.container-express .container--notification-cell{
+    background-color: #000;
+}
+
+/* PAGE premium */
+
+.container-premium .container--notification-cell{
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.btn_pdf_box{
+    max-width: 912px;
+    padding: 25px 0 25px 35px;
+    border: 1px solid #b0954b;
+    margin: 55px auto;
+    box-sizing: border-box;
+    background-color: #ebe1bd;
+}
+
+.btn_pdf_box a{
+    font-size: 20px;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    color: rgb(148, 38, 0);
+    text-decoration: none;
+    position: relative;
+    padding-left: 20px;
+     font-weight: bold;
+     display: block;
+     text-align: left;
+}
+
+.btn_pdf_box a:before {
+    content: "";
+    width: 8px;
+    height: 14px;
+    position: absolute;
+    top: 8.5px;
+    left: 0;
+    background: url(../img/arrow_right_red.png) no-repeat;
+
+}
+
+.btn_pdf_box a:hover{
+    opacity: .8;
+}
+
+@media screen and (max-width: 680px){
+    .contentMain {
+        margin: 0;
+        padding: 35px 3% 10px;
+        
+        background-size: 100% auto;
+    }
+
+    .container{
+        margin: 0 auto;
+    }
+
+    .btn_pdf_box{
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+    .btn_pdf_box a {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+
+    .btn_pdf_box a:before{
+        width: 6px;
+        height: 11px;
+        background-size: contain;
+        top: 4px;
+    }
+
+}
+
+
+
+.accoridon--data {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+.contentSub_inner {
+  border: 0;
+  margin: 47px 0 74px;
+}
+.accor-title {
+  opacity: 0;
+  height: 100%;
+}
+.accor-title:hover {
+  opacity: 0;
+}
+#container--notification.container-notification-active .accor-title {
+  opacity: 1;
+}
+@media screen and (max-width: 640px) {
+
+  /* .accoridon--data {
+    width: 85vw;
+    height: 21.5vw;
+    background-size: 100%;
+  } */
+  .contentSub_inner {
+    margin: 0px 0 30px;
+  }
+}
+
+.accoridon--container_02{
+    
+}
+
+.accoridon--container_02 .accoridon--container-title h2{
+    padding: 15px 0;
+    color: #000000;
+}
+
+/* .accoridon--data_02{
+    width:720px;background-image:none;height: auto;border-top: 1px solid #b0954b;padding: 20px 30px 25px;
+} */
+
+.accoridon--data_02 .contentSub_box_ttl{
+    font-size: 19px;
+}
+
+.view_sp{
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .mt_0_sp_noti{
+        margin-top: 0 !important;
+    }
+    .pd_0_sp_noti{
+        padding-top: 0 !important;
+    }
+    /* .accoridon--container_02{
+        width: 100% !important;
+        margin: 20px auto 0;
+    } */
+    .view_sp{
+        display: block;
+    }
+    .accoridon--data_02 .contentSub_box_ttl{
+        font-size: 16px;
+    }
+    /* .accoridon--data_02{
+        width: 100%;
+        padding: 20px 15px 15px 15px;
+    } */
+}
+
+
+.accoridon--data_03{
+    text-align: center;
+}
+
+.accoridon--data_03 a:hover img{
+    opacity: .9;
+}
+
+
+.notification_show .notification_show_title{
+    font-size: 20px;
+    color: rgb(148, 38, 0);
+    line-height: 1.6;
+    text-align: center;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.notification_show .notification_show_content{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 1.75;
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    .notification_show .notification_show_title{
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 10px
+    }
+    .notification_show .notification_show_content{
+        font-size: 14px;
+    }
+    .accoridon--container_02 .accoridon--container-title h2{
+        padding: 10px 0;
+    }
+
+}
+
+
+

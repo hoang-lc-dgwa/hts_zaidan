@@ -1,0 +1,335 @@
+.header_top {
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 9999;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navigation {
+  border-right: 1px solid #dddddd;
+}
+
+.header_top_right {
+  width: calc(100% - 75px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 20px;
+}
+
+.header_top_right ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_top_right ul li {
+  margin-left: 50px;
+}
+
+
+.navigation_box {
+  position: fixed;
+  top: 0;
+  left: -450px;
+  width: 400px;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  z-index: 999999;
+}
+
+.navigation_box ul.nav_grand {
+  padding: 15px 12px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.navigation_box ul.nav_grand li {
+  font-size: 16px;
+  font-family: "Kozuka Gothic Pr6N";
+  color: rgb(51, 51, 51);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.navigation_box ul.nav_grand li:last-child {
+  margin-bottom: 0;
+}
+
+.navigation_box ul.nav_grand li i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-top: -1px;
+}
+
+.navigation_box ul.nav_grand li a {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 30px);
+}
+
+.navigation_box ul.nav_grand li a:hover,
+.navigation_box ul.nav_grand li a:focus {
+  color: #2a5298;
+}
+
+.nav_dad {
+  padding-left: 45px;
+  margin-top: 13px;
+  position: relative;
+  display: block !important;
+}
+
+.nav_son {
+  position: relative;
+}
+
+.nav_child {
+  padding-left: 20px;
+  margin-top: 13px;
+  display: block !important;
+}
+
+.ic-open,
+.ic-close {
+  position: relative;
+}
+
+/* .ic-open:after{
+  position: absolute;
+  top: 4px;
+  right: 0;
+  content: "";
+  width: 12px;
+  height: 8px;
+  background: url('../images/ic-open.png') no-repeat;
+}
+.ic-close:after{
+  position: absolute;
+  top: 4px;
+  right: 0;
+  content: "";
+  width: 12px;
+  height: 8px;
+  background: url('../images/ic-close.png') no-repeat;
+} */
+
+.nav_child li {
+  font-weight: normal !important;
+}
+
+body.open_nav {
+  position: relative;
+}
+
+body.open_nav:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 99999;
+}
+
+.close_nav_left {
+  position: absolute;
+  top: 15px;
+  right: -30px;
+}
+
+.btn_nav_left {
+  background-color: #2a5298;
+  width: 95px;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: 'Yu Gothic', YuGothic, 'Meiryo', 'メイリオ', '游ゴシック体', 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic';
+}
+
+.btn_nav_left:focus {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 780px) {
+  .header_top {
+    flex-wrap: wrap;
+  }
+
+  .navigation {
+    width: 100%;
+    display: flex;
+    border-right: none;
+    align-items: center;
+    border-bottom: 1px solid #ededed
+  }
+
+  .header_top_right {
+    width: 100%;
+    padding: 0
+  }
+
+  .open_nav_left {
+    /* width: 38px;
+    height: 37px;
+    border-right: 1px solid #ededed; */
+    margin-right: 10px
+  }
+
+  .header_top_right ul {
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  .header_top_right ul li {
+    margin-left: 0;
+    font-size: 11px
+  }
+
+  .navigation_box {
+    padding: 20px 15px;
+    width: 330px;
+    box-sizing: border-box;
+
+  }
+
+  .navigation_box_main {
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px
+  }
+
+  .navigation_box ul.nav_grand li {
+    font-size: 14px;
+  }
+
+  .nav_dad {
+    padding-left: 40px
+  }
+
+  .btn_nav_left {
+    font-size: 13px;
+    width: 62px;
+    height: 44px;
+  }
+
+  .logo_resort_top {
+    width: 92px;
+  }
+}
+
+
+
+
+
+
+.th_contact {
+  border-top: 1px solid #f5f2ed;
+  padding-top: 26px;
+}
+
+.th_contact-title {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 1.556;
+  text-align: center;
+  font-weight: bold;
+  padding: 4px;
+  background-color: #2a5298;
+}
+
+.th_contact-phone {
+  font-size: 36px;
+  font-family: "Yu Gothic";
+  color: rgb(42, 82, 152);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.session_02_01-pb2 {
+  padding-bottom: 12px;
+}
+
+.th_contact-cell {
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.th_contact-copy {
+  font-size: 18px;
+  font-family: "Yu Gothic";
+  color: rgb(30, 30, 30);
+  font-weight: bold;
+  line-height: 1.444;
+  text-align: center;
+}
+
+.th_contact-phone {
+  margin-bottom: 10px;
+}
+
+.th_contact-wrap {
+  padding: 12px;
+  padding-bottom: 0;
+}
+
+.th_contact-phone img {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 766px) {
+  .th_contact {
+    padding: 18px;
+    padding-top: 34px;
+  }
+
+  .th_contact-cell {
+    font-size: 34px;
+  }
+
+  .th_contact-wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .th_contact-title {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .th_contact-copy {
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+
+.txt_phone_min3 {
+  font-size: 15px !important;
+  color: rgb(30, 30, 30);
+  display: block;
+  line-height: 1.4;
+  font-weight: normal;
+  position: relative;
+  top: 4px;
+  font-family: 'Kozuka Gothic Pro', 'Yu Gothic', YuGothic, 'Meiryo', 'メイリオ', '游ゴシック体', 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic';
+  letter-spacing: 0;
+}

@@ -1,0 +1,384 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.align--center {
+    text-align: center;
+}
+
+.layout__float {
+    float: left;
+}
+
+.tab__section{
+  padding-bottom: 70px;
+  background: #ffffff;
+  padding-top: 83px;
+}
+
+.layout__list--globalSP {
+    margin-bottom: 4.9rem;
+}
+
+
+.container--tab {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.graphic__col {
+  font-size: 18px;
+  line-height: 2.156;
+  position: relative;
+  width: 19.1%;
+  margin-right: 0.9%;
+  position: relative;
+  text-align: center;
+  z-index: 9;
+  padding: 5px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  font-weight: 500;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  border: 1px solid rgb(0, 152, 173);
+  background: #ffffff;
+  color: #0098ad;
+}
+
+.graphic__col:last-child{
+  margin-right: 0%;
+}
+
+
+.typography__tab--title {
+  font-size: 3.5rem;
+  color: rgb(0, 152, 173);
+  line-height: 1.057;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+
+.graphic__col:hover{
+ cursor: pointer;
+ border-color: #21575e;
+}
+
+.graphic__list--resort .is--active{
+  background-color: #0098ad;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+
+/* tab content*/
+
+.layout--col2 .graphic--resort {
+    width: 50%;
+}
+.graphic--resort {
+    padding: 0;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+.graphic__border--resort {
+    padding: 1.8rem 1.7rem 1.6rem;
+    border: 1px solid #97cad0;
+}
+
+.graphic__border--resort img{
+  width: 100%;
+}
+
+.typography__title--resort {
+    padding: 0.4rem 1rem 0.2rem 1.2rem;
+    color: #ffffff;
+    font-size: 2.2rem;
+    line-height: 1.682;
+    background-color: #23b8c5;
+    font-weight: 500;
+}
+.typography__title--resort > span {
+  font-size: 1.8rem;
+}
+
+.typography--path {
+    display: inline-block;
+    margin-right: 2.2rem;
+    font-size: 1.4rem;
+    color: #777;
+    padding: 1.5rem 0 1.5rem 0;
+    font-weight: 200;
+}
+
+.typography--path:after {
+    content: "";
+    width: 1px;
+    height: 1.4rem;
+    display: inline-block;
+    position: relative;
+    margin-left: 2rem;
+    border-right: 1px solid #ccc;
+    font-weight: 200;
+    top: 2px;
+}
+
+.typography--path:last-child:after {
+    border-right: 0;
+}
+
+.align__leftright {
+    padding: 1.5rem 1rem 0 0;
+}
+
+.layout__button--art {
+  text-align: center;
+}
+
+.typography__describe--resort {
+  color: rgb(34, 24, 21);
+  font-size: 2.4rem;
+  line-height: 1.558;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+
+
+
+.graphic__button--art{
+    border-radius: 25px;
+    background-color: #ca3a70;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+    width: 34rem;
+    font-size: 2rem;
+    line-height: 1.786;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    padding: 0.7rem 0;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.graphic__button--art:hover,
+.graphic__button--art:focus{
+  color: #ffffff;
+  opacity: .8;
+}
+
+.typography--lineheight {
+    line-height: 1.2;
+    font-size: 1.6rem;
+}
+.layout--line {
+    display: block;
+    vertical-align: middle;
+}
+
+.typography__big--resort {
+    font-size: 3.5rem;
+    line-height: 0.8;
+    letter-spacing: 0rem;
+    vertical-align: bottom;
+    font-weight: normal;
+    color: #e40112;
+    padding-top: 0.5rem;
+    font-weight: bold;
+    display: block;
+    display: none;
+}
+
+.typography__big--resort  .date-phone{
+  font-size: 20px;
+  color: #000;
+}
+
+.layout--line.typography--lineheight em{
+  margin-bottom: 10px;
+  display: block;
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+  line-height: 1.6;
+}
+
+
+.typography--small {
+    font-size: 2.6rem;
+    color: #e40112;
+    line-height: 1.7;
+    font-weight: bold;
+    position: relative;
+    top: 0.6rem;
+    vertical-align: bottom;
+}
+
+small {
+    font-size: 80%;
+}
+
+.graphic__button--art {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.graphic__button--next {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    line-height: 2.056;
+    color: #1e1e1e;
+    margin-left: 0rem;
+    text-decoration: underline;
+}
+
+.graphic__button--next:hover{
+  opacity: 1;
+}
+
+.graphic__button--next:hover span{
+  opacity: .8;
+}
+
+.graphic__button--next::after {
+    content: url(../images/plan/arrow-next_blue_hover.png);
+    position: relative;
+    top: 0.2rem;
+    left: 1rem;
+    opacity: .5;
+}
+
+.graphic__button--next:hover::after{
+  content: url(../images/plan/arrow-next_blue.png);
+  opacity: 1 !important;
+}
+
+.graphic__button--next_02{
+  margin-left: 30px;
+}
+
+
+/* responsive*/
+
+ @media screen and (max-width: 990px) {
+    .container--tab{
+        width: 94%;
+        margin: 0 3%
+    }
+}
+
+@media screen and (max-width: 780px) {
+  .off-sp{
+    display: none;
+  }
+  .graphic__col{
+    width: 46%;
+    margin:0px 2% 10px;
+  }
+
+  .graphic__col span{
+    border : 2px solid #ebcf4c;
+  }
+
+
+
+  .graphic__col::after,
+  .graphic__col::before,
+  .graphic__list--resort .is--active span::before,
+  .graphic__list--resort .is--active span::after{
+    content:none;
+  }
+
+  .layout--col2 .graphic--resort{
+    width: 100%;
+  }
+
+  .typography__title--resort {
+    font-size: 2.4rem;
+    padding: 0.6rem 2rem 0.2rem 2rem;
+  }
+
+  .typography__describe--resort {
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+
+  .graphic__border--resort img{
+    width: 100%;
+  }
+
+  .typography--lineheight {
+    font-size: 14px;
+  }
+  .typography__big--resort {
+    font-size: 28px;
+  }
+  .typography__big--resort  .date-phone{
+    font-size: 16px;
+  }
+  .graphic__button--art{
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .align__leftright{
+    padding: 1.5rem 0rem 0 0rem;
+  }
+}
+
+.button__area{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.button__area a{
+  display: inline-block;
+  background: #23b8c5;
+  padding: 20px 40px;
+  font-size: 26px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0px 1px 9.6px 0.4px rgba(0, 48, 44, 0.3);
+}
+
+@media screen and (max-width: 780px) {
+
+  .button__area{
+    margin-bottom: 20px;
+  }
+
+  .button__area a{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .graphic__button--art{
+    width: 94% !important;
+    font-size: 1.6rem !important;
+  }
+
+  .graphic__button--next_02{
+    margin-left: 0;
+    margin-bottom: 5px !important;
+    display: block;
+  }
+
+
+}

@@ -1,0 +1,286 @@
+.yuyu .article-copy_big {
+  font-size: 24px !important;
+}
+.article-right .article-item {
+    max-width: 460px;
+}
+.article_row {
+  max-width: 1142px;
+  margin: 182px auto 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.article-left {
+  max-width: 630px;
+  min-height: 500px;
+  background-color: #fff;
+}
+.article-right {
+  max-width: 477px;
+  min-height: 500px;
+  background-color: #fff;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+.article-item {
+  background-color: #fff;
+  padding: 11px 12px;
+}
+.yuyu-about_mark {
+  display: block;
+  border: 2px solid #ff5329;
+  color: #ff5329;
+  font-size: 21px;
+  line-height: 1.3;
+  font-weight: bold;
+  padding: 12px;
+  margin: 12px 9px 0 0;
+}
+.article-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 0 6px 0;
+  margin: 0 12px;
+  font-family: "Noto Sans JP", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, メイリオ, Meiryo, sans-serif;
+}
+.article-left .article-caption {
+  align-items: center;
+  padding: 26px 0 22px 0;
+  margin: 0 19px;
+}
+.article-date {
+  font-size: 14px;
+  color: rgb(104, 104, 104);
+  font-weight: bold;
+  line-height: 1.4;
+}
+.article-logo {
+  font-size: 16px;
+  color: #bba56f;
+  line-height: 1;
+  font-weight: bold;
+}
+.article-copy {
+  font-size: 22px;
+  font-family: "Noto Sans JP", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, メイリオ, Meiryo, sans-serif;
+  line-height: 1.6;
+  position: relative;
+  overflow: hidden;
+  padding: 7px 0 10px 0;
+  color: #121212;
+  font-weight: bold;
+  margin: 0 12px;
+}
+.article-left .article-copy {
+  font-size: 28px;
+  color: rgb(18, 18, 18);
+  padding: 23px 0 10px 0;
+  margin: 0 19px;
+}
+.article-left {
+  position: relative;
+}
+.article-left:before {
+  content: "";
+  position: absolute;
+  width: 98px;
+  height: 86px;
+  top: 0;
+  left: 0;
+  background-image: url("/yuyujiteki/article/images/article-check.png");
+  z-index: 9;
+}
+.article-copy:before {
+  content:"..................................................................................................";
+  height: 2px;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  color: #000;
+  line-height: 1px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: serif;
+}
+.color-756152 {
+  color: #756152;
+}
+.color-62abbe {
+  color: #62abbe;
+}
+.color-bba56f {
+  color: #756152;
+}
+.color-3a5f78 {
+  color: #3a5f78;
+}
+.copy-a3958c:before {
+  color: #a3958c;
+}
+.copy-96c7d4:before {
+  color: #96c7d4;
+}
+.copy-d2c39f:before {
+  color: #d2c39f;
+}
+.copy-7c94a5:before {
+  color: #8bc1cf;
+}
+.copy-675040:before {
+  color: #bba56f !important;
+}
+.article-right .article-item {
+  padding-bottom: 5px !important;
+}
+.article-btn_row {
+  text-align: center;
+  margin: 65px auto 0;
+  display: flex;
+  justify-content: center;
+}
+.yuyu-about_row {
+  max-width: 960px;
+  margin: 60px auto 0;
+  text-align: center;
+  padding: 18px;
+}
+
+@media screen and (max-width: 1100px) {
+  .article-copy {
+    font-size: 16px;
+  }
+  .article-left .article-copy {
+    font-size: 20px;
+  }
+  .view_pcipad {
+    display: none;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  .yuyu-about_row {
+    max-width: 960px;
+    margin: 30px auto 0;
+    text-align: center;
+    padding: 10px 8px;
+  }
+  .article-thumb {
+    width: 100%;
+  }
+  .article-thumb img {
+    width: 100%;
+  }
+  .article-copy:before {
+    content:"....................................................................................................................................................................................................";
+  }
+  .article-left:before {
+    width: 58px;
+    height: 50px;
+    background-size: 100%;
+  }
+  .article_row {
+    display: block;
+    margin: 56px 6px 0;
+  }
+  .article-left {
+    min-height: auto;
+    max-width: 100%;
+  }
+  .article-btn_row {
+    text-align: center;
+    margin: 36px auto 0;
+    width: 208px;
+  }
+
+  .article-right {
+    margin-left: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    min-height: auto;
+    padding-bottom: 7px;
+    max-width: 100%;
+  }
+  .article-item {
+    margin-bottom: 20px;
+    padding: 6px 6px;
+  }
+  .article-right .article-item {
+    margin-bottom: 0px;
+  }
+  .article-caption {
+    margin: 0 6px;
+    padding: 8px 0 7px 0;
+  }
+  .article-copy {
+    font-size: 14px;
+    margin: 0 6px;
+    padding: 3px 0 8px 0;
+  }
+  .article-right a {
+    width: 49.2%;
+  }
+  .article-left .article-copy {
+    font-size: 16px !important;
+    margin: 0 8px;
+    padding: 8px 0 10px 0;
+  }
+  .article-left .article-caption {
+    margin: 0 8px;
+    padding: 13px 0 13px 0;
+  }
+  .article-logo {
+    font-size: 12px;
+  }
+  .article-date {
+    font-size: 11px;
+    line-height: 1;
+  }
+  .article-copy:before {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+
+}
+
+.yuyu .article-area{
+  padding: 80px 0;
+  background-color: #F5F2ED;
+}
+
+.yuyu .article_row{
+  max-width: 1018px;
+  margin: 0 auto;
+  
+}
+
+.yuyu .article-copy{
+  font-size: 20px;
+}
+
+.yuyu .article-btn_row{
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .yuyu .article-copy{
+    font-size: 16px
+  }
+  .yuyu .article-btn_row{
+    width: 60%;
+  }
+  .yuyu-about_mark {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: bold;
+    padding: 10px 8px;
+    margin: 12px 0 0 0;
+    border-width: 1px;
+  }
+}

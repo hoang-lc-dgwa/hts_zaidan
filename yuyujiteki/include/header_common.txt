@@ -1,0 +1,63 @@
+<div class="header_common">
+	<div class="header_top">
+		<div class="navigation">
+			<a href="javascript:void(0)" class="open_nav_left"><img src="/yuyujiteki/include/images/icon_hamburger_close.jpg" alt=""></a>
+			<figure class="view_sp">
+				<img src="/yuyujiteki/include/images/logo_resort_top.png" alt="">
+			</figure>
+		</div>
+		<div class="header_top_right">
+			<figure class="view_pc">
+				<img src="/yuyujiteki/include/images/logo_resort_top.png" alt="">
+			</figure>
+			<ul>
+				<li><a href="https://dormy-hotels.com/reserve/mypage" target="_blank">予約の確認・変更</a></li>
+				<li><a href="https://member.kyoritsugroup.com/preregister?cid=C06" target="_blank">新規会員登録(無料)</a></li>
+				<li><a href="/yuyujiteki/#plan">プランご利用の流れ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="navigation_box">
+		<a href="javascript:void(0)" class="close_nav_left"><img src="/yuyujiteki/include/images/ic-close_x.png" alt=""></a>
+		<div class="navigation_box_main">
+			<ul class="nav_grand">
+				<li><i><img src="/yuyujiteki/include/images/ic-home.png" alt=""></i><a href="#">癒湯自適ホーム</a></li>
+				<li><i><img src="/yuyujiteki/include/images/ic-edit.png" alt=""></i><a href="https://asp.hotel-story.ne.jp/ver3d/ASPY0300.asp?cod1=MRHQ0&cod2=&bcid=C03&login=0" target="_blank">予約の確認・変更</a></li>
+				<li><i><img src="/yuyujiteki/include/images/ic-edit-account.png" alt=""></i><a href="https://member.kyoritsugroup.com/mypage/update?cid=C06" target="_blank">会員情報登録の確認・変更</a></li>
+				<li><i><img src="/yuyujiteki/include/images/ic-reg.png" alt=""></i><a href="https://member.kyoritsugroup.com/preregister?cid=C06" target="_blank">新規会員登録(無料)</a></li>
+			</ul>
+			<ul class="nav_grand">
+				<li><i><img src="/yuyujiteki/include/images/ic-flag.png" alt=""></i><a class="nav_out_all" href="/yuyujiteki/#plan">プランご利用の流れ</a></li>
+			</ul>
+			<ul class="nav_grand">
+				<li>
+					<div class="open_list ic-open"><i><img src="/yuyujiteki/include/images/ic-onsen.png" alt=""></i><a href="javascript:void(0)">癒湯自適プランとは</a></div>
+					<ul class="nav_dad">
+						<li class="nav_son">
+							<div class="open_list ic-open"><a href="javascript:void(0)">特典1 宿泊プラン</a></div>
+							<ul class="nav_child">
+								<li><a href="#">北海道 </a></li>
+								<li><a href="#">東北</a></li>
+								<li><a href="#">関東・甲信越</a></li>
+								<li><a href="#">箱根</a></li>
+								<li><a href="#">伊豆</a></li>
+								<li><a href="#">東海・北陸</a></li>
+								<li><a href="#">関西</a></li>
+								<li><a href="#">中国・四国</a></li>
+								<li><a href="#">九州・沖縄</a></li>
+							</ul>
+						</li>
+						<li><a href="/yuyujiteki/yuyu_chokko/" target="_blank">特典2 癒湯自適 直幸往復便</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="nav_grand">
+				<li><i><img src="/yuyujiteki/include/images/ic-book.png" alt=""></i><a href="/yuyujiteki/#reservation" class="nav_out_all">ご予約方法</a></li>
+			</ul>
+			<ul class="nav_grand">
+				<li><i><img src="/yuyujiteki/include/images/ic-info.png" alt=""></i><a href="/yuyujiteki/#warning" class="nav_out_all">ご利用にあたって</a></li>
+			</ul>
+		</div>
+
+	</div>
+</div>
